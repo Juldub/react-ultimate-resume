@@ -5,8 +5,8 @@
         "picture": "",
         "email": "julien.dubois@outlook.com",
         "phone": "0651407831",
-        "website": "http://johndoe.com",
-        "summary": "Voyons voir ce que ça change",
+        "website": "http://juliendubo.is",
+        "summary": "Senoir Product Owner / Chef de Projet Digital",
         "location": {
             "address": "2712 Broadway St",
             "postalCode": "CA 94115",
@@ -16,16 +16,16 @@
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "network": "LinkedIn",
+                "username": "julien-dubois",
+                "url": "www.linkedin.com/in/julien-dubois"
             }
         ]
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
+            "name": "AXA France",
+            "position": "Freelance",
             "website": "http://company.com",
             "startDate": "2014-01-01",
             "summary": "Description...",
