@@ -25,21 +25,19 @@
     "work": [
         {
             "name": "AXA France",
-            "position": "Freelance",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Product Owner pour AXA France",
-            "location": "Paris, France",
-            "highlights": [
-                "Started the company"
-            ]
+            "position": "Chef de projet digital",
+            "website": "https://connect.axa.fr/#/",
+            "startDate": "2019-12-01",
+            "endDate": "2020-03-27",
+            "summary": "Responsable de projets au sein de la Direction Marque et Client Multi-Accès (MCMA) j'interviens en tant que consultant externe pour permettre l'accélération de différents sujets transverses tels que la vision miroir de l'Espace Client du site axa.fr ou encore la convergence des Espaces Clients des sites Entreprise d'AXA.",
+            "location": "Nanterre, France"
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
+            "name": "JCDecaux",
+            "position": "Senior Product Owner",
+            "website": "https://www.jcdecaux-belux.com/fr",
+            "startDate": "2019-04-01",
+            "endDate": "2019-11-30",
             "summary": "Description...",
             "location": "Paris, France",
             "highlights": [
