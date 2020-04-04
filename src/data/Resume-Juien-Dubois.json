@@ -8,11 +8,11 @@
         "website": "http://juliendubo.is",
         "summary": "Senoir Product Owner / Chef de Projet Digital",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "prout"
+            "address": "rue test",
+            "postalCode": "75027",
+            "city": "Nantes",
+            "countryCode": "FR",
+            "region": "Pays de la Loire"
         },
         "profiles": [
             {
@@ -38,33 +38,26 @@
             "website": "https://www.jcdecaux-belux.com/fr",
             "startDate": "2019-04-01",
             "endDate": "2019-11-30",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": [
-                "Started the company"
-            ]
+            "summary": "Au sein des équipes de la DSI du groupe je participe à l'amélioration du produit d'allocation et de stock management de la solution groupe (The Hive). Au centre de mon travail, une nouvelle feature permettant de faire du 'reshuffling'' de campagnes publicitaires (papiers et digitales). Mon principal objectif est de coordonner des équipes transverses réparties entre Bruxelles, Londres et Paris pour avancer ensemble vers la mise en production de cette feature complexe et attendue par le board. Langues pratiquées quotidiennement : Français et Anglais.",
+            "location": "Issy-les-Moulineaux, France"
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": [
-                "Started the company"
-            ]
-        }
-    ],
-    "volunteer": [
+            "name": "Agence du Numérique en Santé (ASIP-Santé)",
+            "position": "Product Owner - Programme SI-SAMU",
+            "website": "https://esante.gouv.fr/projets-nationaux/si-samu",
+            "startDate": "2017-10-01",
+            "endDate": "2018-10-30",
+            "summary": "Au sein du programme SI-Samu j'occupe un poste de Product Owner auprès de deux équipes Scrum différentes. Nous sommes organisés autour du framework de mise à l'échelle de l'agilité #SAFe ",
+            "location": "Paris, France"
+        },
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": [
-                "Awarded 'Volunteer of the Month'"
-            ]
+            "name": "AXA en France",
+            "position": "Product Owner Digital",
+            "website": "https://connect.axa.fr/#/",
+            "startDate": "2014-12-01",
+            "endDate": "2018-09-30",
+            "summary": "Au sein de la DSI d'AXA France, j'occupe différents rôles dont celui de Product Owner, celui de chef de produit API Client d'AXA et de consultant en qualité de services sur les parcours Epargne de l'espace client d'AXA.",
+            "location": "Paris, France"
         }
     ],
     "education": [
@@ -73,87 +66,64 @@
             "id": "f1c8eff9-4cf0-4768-bc1b-6327318474ff",
             "institution": "ESIGELEC",
             "endDate": "2013-01-01",
-            "studyType": "Ingénier",
+            "studyType": "Ingénieur",
             "area": "Génie des systèmes d'informations"
-        }
-    ],
-    "awards": [
+        },
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
+            "position": 1,
+            "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
+            "institution": "Université du Québec à Chicoutimi",
+            "endDate": "2012-01-01",
+            "studyType": "Semester validé",
+            "area": "Master of Science (M.S.)"
+        },
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "position": 2,
+            "id": "a395e2d5-6a24-4e0a-93e6-aba7433bcd1f",
+            "institution": "Aarhus University",
+            "endDate": "2011-01-01",
+            "studyType": "Applied App Development",
+            "area": "Graduated"
+        },
+        {
+            "position": 3,
+            "id": "ec647623-36e4-4d6f-8b37-1a49037cb342",
+            "institution": "CPGE - Lycée Alphonse Daudet",
+            "endDate": "2010-01-01",
+            "studyType": "Physique et Sciences de l'Ingénieur (PSI)",
+            "area": "Un pur bonheur cette prépa 😀"
         }
     ],
     "skills": [
         {
-            "name": "Reactaaa",
+            "name": "Produit",
             "level": "Master",
-            "value": 100,
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
+            "value": 100
         },
         {
-            "name": "Angular",
+            "name": "Agilité",
             "level": "Master",
-            "value": 80,
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
+            "value": 100
         },
         {
-            "name": "NodeJS",
+            "name": "Data",
             "level": "Master",
-            "value": 40,
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
+            "value": 100
         },
         {
-            "name": "Firebase",
+            "name": "API Rest",
             "level": "Master",
-            "value": 60,
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
+            "value": 20
         },
         {
-            "name": "Gmail",
+            "name": "Javascript",
             "level": "Master",
-            "value": 20,
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
+            "value": 20
         },
         {
-            "name": "K8S",
+            "name": "Json",
             "level": "Master",
-            "value": 80,
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
-            ]
+            "value": 20
         }
     ],
     "languages": [
@@ -205,24 +175,10 @@
         "dreamJob": {
             "locations": [
                 {
-                    "name": "Paris,France",
+                    "name": "Nantes",
                     "id": "5fb762f8-55c9-492b-a77b-6001c77cbcdd"
                 }
-            ],
-            "remoteFrequency": "occasionally",
-            "perks": {
-                "mood": true,
-                "responsabilities": true
-            },
-            "salary": "600",
-            "averageDailyRate": "600"
-        },
-        "currentJob": {
-            "issues": {
-                "boring_management": true,
-                "boring_team": true,
-                "no_responsabilities": true
-            }
+            ]
         },
         "education": {
             "studiesLevel": 5
