@@ -3,13 +3,13 @@ import { FormattedMessage } from 'react-intl';
 
 import { CopyWrapper } from '../../commons/copy_wrapper/copy_wrapper';
 
-import { ReactComponent as TwitterIcon } from '../../../assets/icons/brands/twitter.svg';
-import { ReactComponent as FacebookIcon } from '../../../assets/icons/brands/facebook.svg';
+/* import { ReactComponent as TwitterIcon } from '../../../assets/icons/brands/twitter.svg';
+import { ReactComponent as FacebookIcon } from '../../../assets/icons/brands/facebook.svg'; */
 import { ReactComponent as LinkedInIcon } from '../../../assets/icons/brands/linkedin.svg';
 import { ReactComponent as ShareIcon } from '../../../assets/icons/share.svg';
 
 export const SHARE_LINKS_DATA = Object.freeze({
-    twitter: {
+    /* twitter: {
         icon: TwitterIcon,
         tooltipTranslation: (
             <FormattedMessage
@@ -30,7 +30,7 @@ export const SHARE_LINKS_DATA = Object.freeze({
             />
         ),
         getLink: ({ link }) => `https://www.facebook.com/sharer/sharer.php?u=${encodeURI(link)}`
-    },
+    }, */
     linkedIn: {
         icon: LinkedInIcon,
         tooltipTranslation: (
@@ -40,7 +40,7 @@ export const SHARE_LINKS_DATA = Object.freeze({
                 values={{ platform: 'LinkedIn' }}
             />
         ),
-        getLink: ({ link }) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURI(link)}`
+        getLink: ({ lien = 'julien-dubois' }) => `https://www.linkedin.com/in/${(lien)}`
     },
     copyShareUrl: {
         icon: props => (
