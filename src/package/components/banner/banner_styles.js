@@ -3,7 +3,7 @@ import { createScreenWidthMediaQuery, flex } from '../../utils/styles/styles_uti
 
 const { center } = flex;
 
-export const styles = theme => {
+export const styles = (theme) => {
     const {
         palette,
         screenSizes,
@@ -11,18 +11,13 @@ export const styles = theme => {
     } = theme;
 
     const primaryRgb = palette.primary.rgbShades[500].join(', ');
-    const darkenPrimaryRgb = chroma(palette.primary.rgbShades[500])
-        .darken(2)
-        .rgb()
-        .join(', ');
+    const darkenPrimaryRgb = chroma(palette.primary.rgbShades[500]).darken(2).rgb().join(', ');
 
     const QUERY_MEDIUM = createScreenWidthMediaQuery('max-width', screenSizes.medium);
     const QUERY_BETWEEN_MEDIUM_SMALL = createScreenWidthMediaQuery(
         'max-width',
         screenSizes.medium - (screenSizes.medium - screenSizes.small) / 2
     );
-    const QUERY_SMALL = createScreenWidthMediaQuery('max-width', screenSizes.small);
-    const QUERY_EXTRA_SMALL = createScreenWidthMediaQuery('max-width', screenSizes.xs);
 
     return {
         container: {
@@ -38,10 +33,7 @@ export const styles = theme => {
             [QUERY_MEDIUM]: {
                 padding: [spacing * 4, spacing * 6]
             },
-            [QUERY_SMALL]: {
-                height: 450
-            },
-            [QUERY_EXTRA_SMALL]: {
+            [QUERY_BETWEEN_MEDIUM_SMALL]: {
                 height: [550, '!important'],
                 padding: [spacing * 4, spacing * 2.5]
             }

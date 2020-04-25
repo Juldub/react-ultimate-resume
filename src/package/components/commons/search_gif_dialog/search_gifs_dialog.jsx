@@ -5,9 +5,8 @@ import { createUseStyles } from 'react-jss';
 import { useDebounce } from 'use-debounce';
 
 import { Dialog, DialogActions, DialogContent } from '@material-ui/core';
-import { Button, TextField, Tooltip } from '@welovedevs/ui';
+import { Button, TextField, Tooltip, Typography } from '@welovedevs/ui';
 
-import poweredByGiphy from '../../../assets/images/Poweredby_100px-White_VertText.png';
 import { DialogTitle } from '../dialog/dialog_title/dialog_title';
 import { LoadingSpinner } from '../loading_spinner/loading_spinner';
 
@@ -21,7 +20,7 @@ const SearchGifsDialogComponent = ({ open, onClose, onSelect }) => {
     const [query, setQuery] = useState('');
     const [debouncedQuery] = useDebounce(query, 500);
 
-    const handleInputChange = useCallback(event => setQuery(event.target.value), []);
+    const handleInputChange = useCallback((event) => setQuery(event.target.value), []);
 
     return (
         <Dialog
@@ -33,7 +32,9 @@ const SearchGifsDialogComponent = ({ open, onClose, onSelect }) => {
         >
             <DialogTitle classes={{ root: classes.title }}>
                 <FormattedMessage id="Gifs.searchdialog.title" defaultMessage="Search gifs" />
-                <img src={poweredByGiphy} />
+                <Typography variant="body3">
+                    <FormattedMessage id="Gifs.searchdialog.poweredByGiphy" defaultMessage="Powered by Giphy" />
+                </Typography>
             </DialogTitle>
             <DialogContent
                 classes={{

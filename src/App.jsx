@@ -23,12 +23,13 @@ const mergeFunction = (objValue, srcValue, key) => {
     return undefined;
 };
 
-const mode = 'edit';
+const mode = process.env.REACT_APP_MODE || 'edit';
+
 function App() {
     const classes = useStyles();
     const [data, setData] = useState(omit(JsonStub, 'resumeCustomization'));
 
-    const onEdit = useCallback(newData => setData(mergeWith(cloneDeep(data), newData, mergeFunction)), [
+    const onEdit = useCallback((newData) => setData(mergeWith(cloneDeep(data), newData, mergeFunction)), [
         JSON.stringify(data)
     ]);
     const [customization, setCustomization] = useState(JsonStub.resumeCustomization || {});
@@ -54,6 +55,7 @@ function App() {
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
             options={{
+                // locale: 'tr',
                 // side: 'back',
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
