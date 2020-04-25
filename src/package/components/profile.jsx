@@ -13,6 +13,7 @@ import { styles } from './profile_styles';
 
 import en from '../i18n/en.json';
 import fr from '../i18n/fr.json';
+import tr from '../i18n/tr.json';
 
 import '../styles/lib/slick-carousel/slick-theme.css';
 import '../styles/lib/slick-carousel/slick.css';
@@ -33,7 +34,8 @@ if (!Intl.PluralRules) {
 
 const messages = {
     en,
-    fr
+    fr,
+    tr
 };
 const useStyles = createUseStyles(styles);
 
@@ -45,39 +47,42 @@ const DEFAULT_OPTIONS = Object.freeze({
             alt: 'Default Banner'
         }
     },
+    showContactInfos: true,
     dismissFooter: false
 });
 
 const DEFAULT_OBJECT = {};
 const DEFAULT_FUNCTION = () => {};
-const DEFAULT_UPLOAD_FUNCTION = async () => 'https://source.unsplash.com/random/4000x2000';
 
 const DeveloperProfileComponent = ({
-                                       data: originalData = DEFAULT_OBJECT,
-                                       options,
-                                       mode,
-                                       onEdit: onEditProps = DEFAULT_FUNCTION,
-                                       onIsEditingChanged = DEFAULT_FUNCTION,
-                                       onCustomizationChanged,
-                                       onFilesUpload = DEFAULT_UPLOAD_FUNCTION,
-                                       additionalNodes,
-                                       classes: receivedGlobalClasses = {}
-                                   }) => {
+    data: originalData = DEFAULT_OBJECT,
+    options,
+    mode,
+    onEdit: onEditProps = DEFAULT_FUNCTION,
+    onIsEditingChanged = DEFAULT_FUNCTION,
+    onCustomizationChanged,
+    onFilesUpload,
+    additionalNodes,
+    classes: receivedGlobalClasses = {}
+}) => {
     const classes = useStyles(styles);
     const { apiKeys, endpoints } = options;
     const [isEditing, setIsEditing] = useState(false);
     const onEdit = useCallback(
-        newData => {
+        (newData) => {
             if (typeof onEditProps === 'function') {
                 onEditProps(newData);
             }
         },
         [onEditProps]
     );
-    const setIsEditingWithCallback = useCallback((newValue) => {
-        setIsEditing(newValue);
-        onIsEditingChanged(newValue);
-    }, [onIsEditingChanged, setIsEditing]);
+    const setIsEditingWithCallback = useCallback(
+        (newValue) => {
+            setIsEditing(newValue);
+            onIsEditingChanged(newValue);
+        },
+        [onIsEditingChanged, setIsEditing]
+    );
     const store = {
         technologies: useReducer(technologiesReducer, technologiesInitialState)
     };
@@ -86,9 +91,10 @@ const DeveloperProfileComponent = ({
             apiKeys: { giphy: apiKeys?.giphy, unsplash: apiKeys?.unsplash },
             endpoints,
             additionalNodes,
-            receivedGlobalClasses
+            receivedGlobalClasses,
+            customization: options?.customization
         }),
-        [apiKeys, endpoints, additionalNodes, receivedGlobalClasses]
+        [apiKeys, endpoints, additionalNodes, receivedGlobalClasses, JSON.stringify(options?.customization)]
     );
 
     const data = useMemo(() => originalData, [JSON.stringify(originalData)]);

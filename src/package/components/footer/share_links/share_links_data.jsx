@@ -43,7 +43,7 @@ export const SHARE_LINKS_DATA = Object.freeze({
         getLink: ({ lien = 'julien-dubois' }) => `https://www.linkedin.com/in/${(lien)}`
     },
     copyShareUrl: {
-        icon: props => (
+        icon: (props) => (
             <CopyWrapper value={(typeof window === 'undefined' ? {} : window).location?.href}>
                 <ShareIcon {...props} />
             </CopyWrapper>
