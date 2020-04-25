@@ -1,0 +1,294 @@
+{
+    "basics": {
+        "name": "Juien Dubois",
+        "label": "Product Owner",
+        "picture": "",
+        "summary": "Chef de Projet Digital Freelance",
+        "location": {}
+    },
+    "work": [
+        {
+            "name": "AXA France",
+            "position": "Chef de projet digital",
+            "website": "https://connect.axa.fr/#/",
+            "startDate": "2019-12-01",
+            "endDate": "2020-03-27",
+            "summary": "Responsable de projets au sein de la Direction Marque et Client Multi-Accès (MCMA) j'interviens en tant que consultant externe pour permettre l'accélération de différents sujets transverses tels que la vision miroir de l'Espace Client du site axa.fr ou encore la convergence des Espaces Clients des sites Entreprise d'AXA.",
+            "location": "Nanterre, France"
+        },
+        {
+            "name": "JCDecaux",
+            "position": "Senior Product Owner",
+            "website": "https://www.jcdecaux-belux.com/fr",
+            "startDate": "2019-04-01",
+            "endDate": "2019-11-30",
+            "summary": "Au sein des équipes de la DSI du groupe je participe à l'amélioration du produit d'allocation et de stock management de la solution groupe (The Hive). Au centre de mon travail, une nouvelle feature permettant de faire du 'reshuffling'' de campagnes publicitaires (papiers et digitales). Mon principal objectif est de coordonner des équipes transverses réparties entre Bruxelles, Londres et Paris pour avancer ensemble vers la mise en production de cette feature complexe et attendue par le board. Langues pratiquées quotidiennement : Français et Anglais.",
+            "location": "Issy-les-Moulineaux, France"
+        },
+        {
+            "name": "Agence du Numérique en Santé (ASIP-Santé)",
+            "position": "Product Owner - Programme SI-SAMU",
+            "website": "https://esante.gouv.fr/projets-nationaux/si-samu",
+            "startDate": "2017-10-01",
+            "endDate": "2018-10-30",
+            "summary": "Au sein du programme SI-Samu j'occupe un poste de Product Owner auprès de deux équipes Scrum différentes. Nous sommes organisés autour du framework de mise à l'échelle de l'agilité #SAFe ",
+            "location": "Paris, France"
+        },
+        {
+            "name": "AXA en France",
+            "position": "Product Owner Digital",
+            "website": "https://connect.axa.fr/#/",
+            "startDate": "2014-12-01",
+            "endDate": "2018-09-30",
+            "summary": "Au sein de la DSI d'AXA France, j'occupe différents rôles dont celui de Product Owner, celui de chef de produit API Client d'AXA et de consultant en qualité de services sur les parcours Epargne de l'espace client d'AXA.\n\n",
+            "location": "Paris, France"
+        }
+    ],
+    "education": [
+        {
+            "position": 0,
+            "id": "f1c8eff9-4cf0-4768-bc1b-6327318474ff",
+            "institution": "ESIGELEC, Rouen",
+            "endDate": "2013-01-01",
+            "studyType": "Ingénieur",
+            "area": "Génie des systèmes d'informations"
+        },
+        {
+            "position": 1,
+            "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
+            "institution": "Université du Québec à Chicoutimi, Canada",
+            "endDate": "2012-01-01",
+            "studyType": "Semester validé",
+            "area": "Master of Science (M.S.)"
+        },
+        {
+            "position": 2,
+            "id": "a395e2d5-6a24-4e0a-93e6-aba7433bcd1f",
+            "institution": "Aarhus University, Denmark",
+            "endDate": "2011-01-01",
+            "studyType": "Applied App Development",
+            "area": "Graduated"
+        },
+        {
+            "position": 3,
+            "id": "ec647623-36e4-4d6f-8b37-1a49037cb342",
+            "institution": "CPGE - Lycée Alphonse Daudet, Nîmes",
+            "endDate": "2010-01-01",
+            "studyType": "Physique et Sciences de l'Ingénieur (PSI)",
+            "area": "Un pur bonheur cette prépa 😀"
+        },
+        {
+            "position": 4,
+            "institution": "",
+            "endDate": "",
+            "studyType": "",
+            "area": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "Produit",
+            "level": "Master",
+            "value": 100
+        },
+        {
+            "name": "Agilité",
+            "level": "Master",
+            "value": 100
+        },
+        {
+            "name": "Data",
+            "level": "Master",
+            "value": 100
+        },
+        {
+            "name": "API Rest",
+            "level": "Master",
+            "value": 80
+        },
+        {
+            "name": "Javascript",
+            "level": "Master",
+            "value": 30
+        },
+        {
+            "name": "Json",
+            "level": "Master",
+            "value": 70
+        }
+    ],
+    "languages": [
+        {
+            "name": "Français",
+            "position": 0,
+            "value": 100,
+            "language": "Français"
+        },
+        {
+            "name": "Anglais",
+            "position": 1,
+            "value": 70,
+            "language": "Anglais"
+        },
+        {
+            "name": "Espagnol",
+            "position": 2,
+            "value": 35,
+            "language": "Espagnol"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Le swowboard 🏂",
+            "gifUrl": "https://media.giphy.com/media/keyZQjtd96HVXr6m5Z/giphy.gif"
+        },
+        {
+            "name": "Le football ⚽️",
+            "gifUrl": "https://media.giphy.com/media/gxupXz6fPDScE/giphy.gif"
+        },
+        {
+            "name": "Les voyages 🗺",
+            "gifUrl": "https://media.giphy.com/media/3o6ZtelrVAOD5EcmCQ/giphy.gif"
+        }
+
+        
+    ],
+    "projects": [
+        {
+            "date": {
+                "month": 2,
+                "year": 2016
+            },
+            "description": "Il fallait commencer par changer d'appartement\nDu coup j'ai rangé mes affaires dans des cartons et ensuite j'ai appelé jack",
+            "id": "65c9acee-28e0-473a-b8ca-256defab395c",
+            "link": "https://welovedevs.com",
+            "name": "Changer le monde",
+            "old_endDate": "2016-03-20",
+            "endDate": "2016-03-01"
+        }
+    ],
+    "specific": {
+        "basics": {
+            "visaSponsorship": false,
+            "personalDescription": "Bienvenue sur mon site internet !\nJe m'appelle Julien Dubois, je suis Product Owner freelance à Paris depuis plusieurs années et j'ai le projet de m'installer à Nantes en 2020. "
+        },
+        "dreamJob": {
+            "locations": [
+                {
+                    "index": 0,
+                    "name": "Nantes",
+                    "id": "89b7777a-467d-4ab9-85ad-d34214df9f59"
+                }
+            ],
+            "perks": {
+                "mood": true,
+                "training": true,
+                "challenge": true
+            },
+            "remoteFrequency": "occasionally"
+        },
+        "currentJob": {},
+        "education": {
+            "studiesLevel": 5
+        },
+        "work": {
+            "contractTypes": [
+                ""
+            ],
+            "codingYears": 3,
+            "experienceYears": 8,
+            "codingReason": "J'ai appris à coder en école d'ingénieur puis en auto-didacte grâce à OpenClassrooms. Aujourd'hui je continue à réaliser des projets personnels car cela m'aide beaucoup dans mon travail et notamment lors de mes collaborations avec les développeurs.\n\n"
+        },
+        "sound": {
+            "embedUrl": "https://open.spotify.com/embed/playlist/6qga63p2F1uijarfPT9SBK"
+        },
+        "interestedBy": "Le Product Management, le Javascript et la Ligue 1 Conforama."
+    },
+    "resumeCustomization": {
+        "imageHeader": {
+            "url": "http://juliendubo.is/banner-juldub.jpg",
+            "alt": "Default Banner"
+        },
+        "cardsOrder": [
+            {
+                "type": "basics",
+                "variant": 4
+            },
+            {
+                "type": "skills",
+                "variant": 0
+            },
+            {
+                "type": "dreamjob",
+                "variant": 4
+            },
+            {
+                "type": "experiences",
+                "variant": 4
+            },
+            {
+                "type": "language",
+                "variant": 1
+            },
+            {
+                "type": "studies",
+                "variant": 4
+            },
+            {
+                "type": "interestedBy",
+                "variant": 1
+            },
+            {
+                "type": "gifs",
+                "variant": 0
+            },
+            {
+                "type": "soundtrack",
+                "variant": 1
+            }
+        ],
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#e8f0f0",
+                    "100": "#d1e1e1",
+                    "200": "#a4c2c4",
+                    "300": "#76a4a6",
+                    "400": "#498589",
+                    "500": "#1b676b",
+                    "600": "#165256",
+                    "700": "#103e40",
+                    "800": "#0b292b",
+                    "900": "#051515",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#eef4ed",
+                    "100": "#dceada",
+                    "200": "#b9d5b6",
+                    "300": "#97bf91",
+                    "400": "#74aa6d",
+                    "500": "#519548",
+                    "600": "#41773a",
+                    "700": "#31592b",
+                    "800": "#203c1d",
+                    "900": "#101e0e",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#f3f9e9",
+                    "100": "#e7f3d3",
+                    "200": "#cfe7a8",
+                    "300": "#b8dc7c",
+                    "400": "#a0d051",
+                    "500": "#88c425",
+                    "600": "#6d9d1e",
+                    "700": "#527616",
+                    "800": "#364e0f",
+                    "900": "#1b2707",
+                    "contrastDefaultColor": "light"
+                }
+            }
+        }
+    }
+}
