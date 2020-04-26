@@ -2,6 +2,7 @@
     "basics": {
         "name": "Julien Dubois",
         "label": "Product Owner",
+        "email": "bonjour@juliendubo.is",
         "picture": "",
         "summary": "Chef de Projet Digital Freelance",
         "email": "bonjour@juliendubo.is",
@@ -251,6 +252,7 @@
         "theme": {
             "palette": {
                 "primary": {
+<<<<<<< HEAD
                     "50": "#efecee",
                     "100": "#dfd9dd",
                     "200": "#beb3bc",
@@ -287,6 +289,44 @@
                     "700": "#657970",
                     "800": "#43514a",
                     "900": "#222825",
+=======
+                    "50": "#e9e7ea",
+                    "100": "#d3cfd5",
+                    "200": "#a79faa",
+                    "300": "#7b6f80",
+                    "400": "#4f3f55",
+                    "500": "#230f2b",
+                    "600": "#1c0c22",
+                    "700": "#15091a",
+                    "800": "#0e0611",
+                    "900": "#070309",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#fee8ec",
+                    "100": "#fcd2d9",
+                    "200": "#faa5b3",
+                    "300": "#f7778d",
+                    "400": "#f54a67",
+                    "500": "#f21d41",
+                    "600": "#c21734",
+                    "700": "#911127",
+                    "800": "#610c1a",
+                    "900": "#30060d",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#fdfdf8",
+                    "100": "#fbfbf2",
+                    "200": "#f7f7e4",
+                    "300": "#f3f3d7",
+                    "400": "#efefc9",
+                    "500": "#ebebbc",
+                    "600": "#bcbc96",
+                    "700": "#8d8d71",
+                    "800": "#5e5e4b",
+                    "900": "#2f2f26",
+>>>>>>> 96e3417b568968f3366ba8d7978450b03ab9ed26
                     "contrastDefaultColor": "light"
                 }
             }
