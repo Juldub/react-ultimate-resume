@@ -5,7 +5,6 @@
         "email": "bonjour@juliendubo.is",
         "picture": "",
         "summary": "Chef de Projet Digital Freelance",
-        "email": "bonjour@juliendubo.is",
         "location": {}
     },
     "work": [
@@ -252,44 +251,6 @@
         "theme": {
             "palette": {
                 "primary": {
-<<<<<<< HEAD
-                    "50": "#efecee",
-                    "100": "#dfd9dd",
-                    "200": "#beb3bc",
-                    "300": "#9e8d9a",
-                    "400": "#7d6779",
-                    "500": "#5d4157",
-                    "600": "#4a3446",
-                    "700": "#382734",
-                    "800": "#251a23",
-                    "900": "#130d11",
-                    "contrastDefaultColor": "light"
-                },
-                "secondary": {
-                    "50": "#f3f3f3",
-                    "100": "#e6e7e7",
-                    "200": "#cdcfd0",
-                    "300": "#b5b6b8",
-                    "400": "#9c9ea1",
-                    "500": "#838689",
-                    "600": "#696b6e",
-                    "700": "#4f5052",
-                    "800": "#343637",
-                    "900": "#1a1b1b",
-                    "contrastDefaultColor": "light"
-                },
-                "tertiary": {
-                    "50": "#f6faf8",
-                    "100": "#eef4f1",
-                    "200": "#dceae3",
-                    "300": "#cbdfd6",
-                    "400": "#b9d5c8",
-                    "500": "#a8caba",
-                    "600": "#86a295",
-                    "700": "#657970",
-                    "800": "#43514a",
-                    "900": "#222825",
-=======
                     "50": "#e9e7ea",
                     "100": "#d3cfd5",
                     "200": "#a79faa",
@@ -326,7 +287,6 @@
                     "700": "#8d8d71",
                     "800": "#5e5e4b",
                     "900": "#2f2f26",
->>>>>>> 96e3417b568968f3366ba8d7978450b03ab9ed26
                     "contrastDefaultColor": "light"
                 }
             }
