@@ -38,16 +38,11 @@ const FooterComponent = () => {
                         <Logo className={classes.logo} />
                     </a>
                     <Tooltip
-                        title={
-                            <FormattedMessage
-                                id="Footer.github.tooltip"
-                                defaultMessage="Create your own developer profile!"
-                            />
-                        }
+                        title={<FormattedMessage id="Footer.github.tooltip" defaultMessage="Mon humble profil Git" />}
                     >
                         <a
                             className={classes.githubLink}
-                            href="https://github.com/welovedevs/developer-profile"
+                            href="https://github.com/Juldub"
                             target="_bank"
                             rel="noreferer noopener"
                         >
@@ -66,14 +61,10 @@ const FooterComponent = () => {
                 <Logo className={classes.logo} />
             </a>
             <ShareLinks />
-            <Tooltip
-                title={
-                    <FormattedMessage id="Footer.github.tooltip" defaultMessage="Create your own developer profile!" />
-                }
-            >
+            <Tooltip title={<FormattedMessage id="Footer.github.tooltip" defaultMessage="Mon humble profil Git" />}>
                 <a
                     className={classes.githubLink}
-                    href="https://github.com/welovedevs/developer-profile"
+                    href="https://github.com/Juldub"
                     target="_bank"
                     rel="noreferer noopener"
                 >
