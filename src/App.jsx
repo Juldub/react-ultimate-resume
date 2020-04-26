@@ -24,8 +24,7 @@ const mergeFunction = (objValue, srcValue, key) => {
     return undefined;
 };
 
-
-const mode = process.env.REACT_APP_MODE || 'edit';
+const mode = process.env.REACT_APP_MODE || 'readOnly';
 // const mode = 'edit';
 // const mode = 'readOnly';
 

@@ -1,9 +1,10 @@
 {
     "basics": {
-        "name": "Juien Dubois",
+        "name": "Julien Dubois",
         "label": "Product Owner",
         "picture": "",
         "summary": "Chef de Projet Digital Freelance",
+        "email": "bonjour@juliendubo.is",
         "location": {}
     },
     "work": [
@@ -206,7 +207,7 @@
     },
     "resumeCustomization": {
         "imageHeader": {
-            "url": "http://juliendubo.is/banner-juldub.jpg",
+            "url": "//juliendubo.is/banner-juldub.jpg",
             "alt": "Default Banner"
         },
         "cardsOrder": [
@@ -250,42 +251,42 @@
         "theme": {
             "palette": {
                 "primary": {
-                    "50": "#e8f0f0",
-                    "100": "#d1e1e1",
-                    "200": "#a4c2c4",
-                    "300": "#76a4a6",
-                    "400": "#498589",
-                    "500": "#1b676b",
-                    "600": "#165256",
-                    "700": "#103e40",
-                    "800": "#0b292b",
-                    "900": "#051515",
+                    "50": "#efecee",
+                    "100": "#dfd9dd",
+                    "200": "#beb3bc",
+                    "300": "#9e8d9a",
+                    "400": "#7d6779",
+                    "500": "#5d4157",
+                    "600": "#4a3446",
+                    "700": "#382734",
+                    "800": "#251a23",
+                    "900": "#130d11",
                     "contrastDefaultColor": "light"
                 },
                 "secondary": {
-                    "50": "#eef4ed",
-                    "100": "#dceada",
-                    "200": "#b9d5b6",
-                    "300": "#97bf91",
-                    "400": "#74aa6d",
-                    "500": "#519548",
-                    "600": "#41773a",
-                    "700": "#31592b",
-                    "800": "#203c1d",
-                    "900": "#101e0e",
+                    "50": "#f3f3f3",
+                    "100": "#e6e7e7",
+                    "200": "#cdcfd0",
+                    "300": "#b5b6b8",
+                    "400": "#9c9ea1",
+                    "500": "#838689",
+                    "600": "#696b6e",
+                    "700": "#4f5052",
+                    "800": "#343637",
+                    "900": "#1a1b1b",
                     "contrastDefaultColor": "light"
                 },
                 "tertiary": {
-                    "50": "#f3f9e9",
-                    "100": "#e7f3d3",
-                    "200": "#cfe7a8",
-                    "300": "#b8dc7c",
-                    "400": "#a0d051",
-                    "500": "#88c425",
-                    "600": "#6d9d1e",
-                    "700": "#527616",
-                    "800": "#364e0f",
-                    "900": "#1b2707",
+                    "50": "#f6faf8",
+                    "100": "#eef4f1",
+                    "200": "#dceae3",
+                    "300": "#cbdfd6",
+                    "400": "#b9d5c8",
+                    "500": "#a8caba",
+                    "600": "#86a295",
+                    "700": "#657970",
+                    "800": "#43514a",
+                    "900": "#222825",
                     "contrastDefaultColor": "light"
                 }
             }
