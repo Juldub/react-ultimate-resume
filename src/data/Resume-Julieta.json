@@ -88,54 +88,29 @@
     ],
     "skills": [
         {
-            "name": "Produit",
+            "name": "Espagnol",
             "level": "Master",
             "value": 100
         },
         {
-            "name": "Agilité",
+            "name": "Français",
             "level": "Master",
             "value": 100
         },
         {
-            "name": "Data",
+            "name": "Anglais",
             "level": "Master",
             "value": 100
         },
         {
-            "name": "API Rest",
+            "name": "Portugais",
             "level": "Master",
             "value": 80
         },
         {
-            "name": "Javascript",
+            "name": "Italien",
             "level": "Master",
-            "value": 30
-        },
-        {
-            "name": "Json",
-            "level": "Master",
-            "value": 70
-        }
-    ],
-    "languages": [
-        {
-            "name": "Français",
-            "position": 0,
-            "value": 100,
-            "language": "Français"
-        },
-        {
-            "name": "Anglais",
-            "position": 1,
-            "value": 70,
-            "language": "Anglais"
-        },
-        {
-            "name": "Espagnol",
-            "position": 2,
-            "value": 35,
-            "language": "Espagnol"
+            "value": 40
         }
     ],
     "interests": [
@@ -216,6 +191,22 @@
                 "variant": 4
             },
             {
+                "type": "projects",
+                "variant": 4
+            },
+            {
+                "type": "gifs",
+                "variant": 0
+            },
+            {
+                "type": "experiences",
+                "variant": 4
+            },
+            {
+                "type": "projects",
+                "variant": 4
+            },
+            {
                 "type": "skills",
                 "variant": 0
             },
@@ -225,26 +216,6 @@
             },
             {
                 "type": "experiences",
-                "variant": 4
-            },
-            {
-                "type": "language",
-                "variant": 1
-            },
-            {
-                "type": "studies",
-                "variant": 4
-            },
-            {
-                "type": "interestedBy",
-                "variant": 1
-            },
-            {
-                "type": "gifs",
-                "variant": 0
-            },
-            {
-                "type": "projects",
                 "variant": 4
             }
         ],
