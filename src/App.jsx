@@ -9,7 +9,7 @@ import download from 'downloadjs';
 import { Button } from '@welovedevs/ui';
 
 import JsonStub from './data/Resume-Julien-Dubois.json';
-// import JsonStub from './data/Resume-Julieta.json';
+
 import DeveloperProfile from './package';
 import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg';
 
