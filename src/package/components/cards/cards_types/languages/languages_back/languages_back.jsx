@@ -23,7 +23,7 @@ const LanguagesBackComponent = ({ data, handleAddButtonClick }) => {
 
     return (
         <ProfileCardAnimatedBack
-            title="Languages"
+            title="Langues"
             customClasses={{
                 content: classes.content,
                 contentAnimated: classes.contentAnimated,
