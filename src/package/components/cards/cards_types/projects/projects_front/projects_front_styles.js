@@ -50,7 +50,7 @@ export const styles = (theme) => {
         text: {
             color: 'inherit',
             fontWeight: 700,
-            fontSize: 30,
+            fontSize: 35,
             lineHeight: 1.3,
             wordWrap: 'break-word',
             overflow: 'hidden',

@@ -34,7 +34,7 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
     ]);
     const alt = data.projects?.[0]?.title;
 
-    const projectTitle = useMemo(() => {
+    /* const projectTitle = useMemo(() => {
         if (!data.projects?.[0]) {
             return '';
         }
@@ -42,7 +42,7 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
             return data.projects?.[0].name;
         }
         return data.projects?.[0].description?.slice(0, 20) ?? '';
-    }, [data.projects?.[0]]);
+    }, [data.projects?.[0]]); */
 
     const classes = useStyles({ variant, hasImage: !!imageSrc });
 
@@ -56,7 +56,7 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
             <div className={classes.content}>
                 <Content
                     hasProject={hasProject}
-                    projectTitle={projectTitle}
+                    /* projectTitle={projectTitle} */
                     handleAddButtonClick={handleAddButtonClick}
                     classes={classes}
                 />
