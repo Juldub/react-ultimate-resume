@@ -2,6 +2,9 @@ import { createScreenWidthMediaQuery } from '../../../../../../utils/styles/styl
 
 export const styles = (theme) => ({
     text: {},
+    logo: {
+        display: 'none'
+    },
     [createScreenWidthMediaQuery('max-width', theme.screenSizes.xs)]: {
         text: {
             fontSize: 12

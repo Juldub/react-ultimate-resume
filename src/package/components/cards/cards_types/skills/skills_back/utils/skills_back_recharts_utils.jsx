@@ -68,13 +68,20 @@ const CustomLabel = (props) => {
                     fill="none"
                 />
                 <g transform={`translate(${endX + (cos >= 0 ? 1 : -1) * 8},${endY - 10})`} width="100">
-                    <image width="25" height="25" xlinkHref={src} y="-10" transform={`translate(${logoXOffset},-6)`} />
+                    <image
+                        className={classes.logo}
+                        width="25"
+                        height="25"
+                        xlinkHref={src}
+                        y="-10"
+                        transform={`translate(${logoXOffset},-6)`}
+                    />
                     <text
                         textAnchor={textAnchor}
                         fill={customColor}
                         fontWeight="500"
                         className={classes.text}
-                        transform="translate(0, 29)"
+                        transform="translate(0, 13)"
                     >
                         {name}
                     </text>

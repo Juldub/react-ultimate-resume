@@ -12,10 +12,11 @@ export const styles = (theme) => {
             marginBottom: spacing * 4,
             height: '45%',
             minHeight: '45%',
-            width: 'auto'
+            width: 'auto',
+            display: 'none'
         },
         typography: {
-            fontSize: 36,
+            fontSize: 33,
             lineHeight: 1.3
         },
         noSkill: {
