@@ -22,7 +22,7 @@ const GifsSidesCommonsComponent = ({ underLayer, children, classes: receivedClas
                     container: classes.title
                 }}
             >
-                <FormattedMessage id="Hobbies.side.commons" defaultMessage="Hobbies" />
+                <FormattedMessage id="Hobbies.side.commons" defaultMessage="Mes références" />
             </ProfileCardTitle>
             {children}
         </div>
