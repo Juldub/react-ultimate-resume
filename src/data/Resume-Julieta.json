@@ -23,73 +23,46 @@
         {
             "position": 0,
             "id": "f1c8eff9-4cf0-4768-bc1b-6327318474ff",
-            "institution": "ESIGELEC, Rouen",
-            "endDate": "2013-01-01",
-            "studyType": "Ingénieur",
-            "area": "Génie des systèmes d'informations"
+            "institution": "Professionalisme",
+            "studyType": "Je suis très pro."
         },
         {
             "position": 1,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Université du Québec à Chicoutimi, Canada",
-            "endDate": "2012-01-01",
-            "studyType": "Semester validé",
-            "area": "Master of Science (M.S.)"
-        },
-        {
-            "position": 2,
-            "id": "a395e2d5-6a24-4e0a-93e6-aba7433bcd1f",
-            "institution": "Aarhus University, Denmark",
-            "endDate": "2011-01-01",
-            "studyType": "Applied App Development",
-            "area": "Graduated"
-        },
-        {
-            "position": 3,
-            "id": "ec647623-36e4-4d6f-8b37-1a49037cb342",
-            "institution": "CPGE - Lycée Alphonse Daudet, Nîmes",
-            "endDate": "2010-01-01",
-            "studyType": "Physique et Sciences de l'Ingénieur (PSI)",
-            "area": "Un pur bonheur cette prépa 😀"
-        },
-        {
-            "position": 4,
-            "institution": "",
-            "endDate": "",
-            "studyType": "",
-            "area": ""
+            "institution": "Rigueur",
+            "studyType": "Je suis très rigoureuse."
         }
     ],
     "skills": [
         {
-            "name": "Espagnol",
+            "name": "🇪🇸 Español",
             "level": "Master",
             "value": 100
         },
         {
-            "name": "Français",
+            "name": "🇫🇷 Français",
             "level": "Master",
             "value": 100
         },
         {
-            "name": "Anglais",
+            "name": "󠁧󠁢󠁥󠁮󠁧🇬🇧 English",
             "level": "Master",
             "value": 100
         },
         {
-            "name": "Portugais",
+            "name": "🇵🇹 Português",
             "level": "Master",
-            "value": 80
+            "value": 75
         },
         {
-            "name": "Italien",
+            "name": "🇮🇹 Italiano",
             "level": "Master",
-            "value": 40
+            "value": 25
         }
     ],
     "interests": [
         {
-            "name": "Fruition Sciences",
+            "name": "",
             "gifUrl": "http://test.juliendubo.is/logos/logo_fruitionsciences.png"
         },
         {
@@ -143,26 +116,8 @@
     ],
     "projects2": [
         {
-            "date": {
-                "month": 2,
-                "year": 2016
-            },
-            "description": "TOTOTOTOTOTOTO",
-            "link": "https://welovedevs.com",
-            "name": "LOOOOOOOL",
-            "old_endDate": "2016-03-20",
-            "endDate": "2016-03-01"
-        },
-        {
-            "date": {
-                "month": 2,
-                "year": 2016
-            },
-            "description": "TROTRO",
-            "link": "https://welovedevs.com",
-            "name": "MDR",
-            "old_endDate": "2016-03-20",
-            "endDate": "2016-03-01"
+            "description": "",
+            "name": "Plus de 15 collaborations à travers le monde"
         }
     ],
     "specific": {
@@ -233,7 +188,7 @@
                 "variant": 0
             },
             {
-                "type": "dreamjob",
+                "type": "studies",
                 "variant": 4
             },
             {

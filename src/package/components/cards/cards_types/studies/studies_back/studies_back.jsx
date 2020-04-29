@@ -51,7 +51,7 @@ const Content = ({ data, handleAddButtonClick }) => {
 };
 
 const StudiesBackComponent = ({ data: { education: data }, handleAddButtonClick }) => (
-    <ProfileCardAnimatedBack title="Études">
+    <ProfileCardAnimatedBack title="PRECISION">
         <Content {...{ data, handleAddButtonClick }} />
     </ProfileCardAnimatedBack>
 );
