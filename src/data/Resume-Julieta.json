@@ -10,40 +10,13 @@
     },
     "work": [
         {
-            "name": "AXA France",
-            "position": "Chef de projet digital",
+            "name": "",
+            "position": "Mais c’est quoi l’AgTech ?",
             "website": "https://connect.axa.fr/#/",
-            "startDate": "2019-12-01",
-            "endDate": "2020-03-27",
-            "summary": "Responsable de projets au sein de la Direction Marque et Client Multi-Accès (MCMA) j'interviens en tant que consultant externe pour permettre l'accélération de différents sujets transverses tels que la vision miroir de l'Espace Client du site axa.fr ou encore la convergence des Espaces Clients des sites Entreprise d'AXA.",
-            "location": "Nanterre, France"
-        },
-        {
-            "name": "JCDecaux",
-            "position": "Senior Product Owner",
-            "website": "https://www.jcdecaux-belux.com/fr",
-            "startDate": "2019-04-01",
-            "endDate": "2019-11-30",
-            "summary": "Au sein des équipes de la DSI du groupe je participe à l'amélioration du produit d'allocation et de stock management de la solution groupe (The Hive). Au centre de mon travail, une nouvelle feature permettant de faire du 'reshuffling'' de campagnes publicitaires (papiers et digitales). Mon principal objectif est de coordonner des équipes transverses réparties entre Bruxelles, Londres et Paris pour avancer ensemble vers la mise en production de cette feature complexe et attendue par le board. Langues pratiquées quotidiennement : Français et Anglais.",
-            "location": "Issy-les-Moulineaux, France"
-        },
-        {
-            "name": "Agence du Numérique en Santé (ASIP-Santé)",
-            "position": "Product Owner - Programme SI-SAMU",
-            "website": "https://esante.gouv.fr/projets-nationaux/si-samu",
-            "startDate": "2017-10-01",
-            "endDate": "2018-10-30",
-            "summary": "Au sein du programme SI-Samu j'occupe un poste de Product Owner auprès de deux équipes Scrum différentes. Nous sommes organisés autour du framework de mise à l'échelle de l'agilité #SAFe ",
-            "location": "Paris, France"
-        },
-        {
-            "name": "AXA en France",
-            "position": "Product Owner Digital",
-            "website": "https://connect.axa.fr/#/",
-            "startDate": "2014-12-01",
-            "endDate": "2018-09-30",
-            "summary": "Au sein de la DSI d'AXA France, j'occupe différents rôles dont celui de Product Owner, celui de chef de produit API Client d'AXA et de consultant en qualité de services sur les parcours Epargne de l'espace client d'AXA.\n\n",
-            "location": "Paris, France"
+            "startDate": "",
+            "endDate": "",
+            "summary": "Quand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval de la chaîne de valeur agricole.\n\nL’AgTech a pour principal objectif de collecter, de stocker, de traiter et d’échanger des données numériques. Ces données sont des informations acquises manuellement ou par l’intermédiaire des outils informatiques sur le terrain ou récupérées dans les bases de données historiques. Lorsque l’on croise un grand volume de données on parle de big data.\n\nDiverses sont les technologies et les méthodes utilisées pour créer et traiter le big data :\n\n- Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, objets connectés, télédétection\n- Localisation géographique des informations : géolocalisation par satellite\n- Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales\n- Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique\n- Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation\n- Échanges de données informatisées : internet, ordinateur, tablette, smartphone\n\n",
+            "location": ""
         }
     ],
     "education": [
@@ -146,32 +119,29 @@
 
         
     ],
-    "projects2": [
+    "projects": [
         {
-            "date": {
-                "month": 2,
-                "year": 2016
-            },
-            "description": "Test 1 ",
-            "link": "https://welovedevs.com",
-            "name": "Changer le monde",
-            "old_endDate": "2016-03-20",
-            "endDate": "2016-03-01"
+            "name": "Intelligence collective",
+            "description": "Test 2",
+            "link": ""
         },
         {
-            "date": {
-                "month": 2,
-                "year": 2016
-            },
-            "description": "Test 2",
-            "id": "65c9acee-28e0-473a-b8ca-256defab395c",
-            "link": "https://welovedevs.com",
-            "name": "Changer le monde",
-            "old_endDate": "2016-03-20",
-            "endDate": "2016-03-01"
+            "name": "Dynamique Agile",
+            "description": "Test 3",
+            "link": ""
+        },
+        {
+            "name": "Outils et services AgTech",
+            "description": "Test 4",
+            "link": ""
+        },
+        {
+            "name": "Mise en réseau",
+            "description": "Test 5",
+            "link": ""
         }
     ],
-    "projects": [
+    "projects2": [
         {
             "date": {
                 "month": 2,

@@ -4,7 +4,8 @@ export const styles = (theme) => {
     } = theme;
     return {
         subtitle: {
-            marginBottom: spacing * 2
+            display: 'none',
+            marginBottom: spacing * 1
         }
     };
 };

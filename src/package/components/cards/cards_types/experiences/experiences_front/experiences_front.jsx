@@ -59,9 +59,7 @@ const ExperiencesFrontComponent = ({ data, handleAddButtonClick }) => {
                     />
                 );
             } else {
-                builder.push(
-                    <FormattedMessage id="Experience.front.title.stillEmployed" defaultMessage="Still employed" />
-                );
+                builder.push(<FormattedMessage id="Experience.front.title.stillEmployed" defaultMessage=" " />);
             }
         } else if (!['endDate', 'startDate'].some((key) => !moment.isMoment(firstExperience?.[key]))) {
             const { startDate } = firstExperience;
