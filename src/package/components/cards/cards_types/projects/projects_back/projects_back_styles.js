@@ -43,8 +43,7 @@ export const styles = (theme) => {
         backgroundImage: {
             height: '190%',
             width: '110%',
-            objectFit: 'cover',
-            transform: 'rotate(-10deg)'
+            objectFit: 'cover'
         }
     };
 };

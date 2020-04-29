@@ -3,7 +3,7 @@ import { ProfileCard } from '../../../commons/profile_card/profile_card';
 import { ProjectsFront2 } from './projects_front/projects_front2';
 import { ProjectsBack2 } from './projects_back/projects_back2';
 import { AddButton } from './add_button_rounded/add_button_rounded';
-import { ProjectDialog } from './project_dialog/project_dialog';
+import { ProjectDialog2 } from './project_dialog/project_dialog2';
 
 import { mapProjects2FromJsonResume } from './data/mapping';
 import { DeveloperProfileContext } from '../../../../utils/context/contexts';
@@ -42,7 +42,7 @@ const ProjectsCardComponent = ({ variant, side }) => {
             side={currentSide}
             customEditAction={(props) => <AddButton title="Ajouter un projet" {...props} />}
             editDialog={{
-                component: ProjectDialog,
+                component: ProjectDialog2,
                 data: {}
             }}
         />

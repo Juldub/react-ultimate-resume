@@ -75,12 +75,6 @@
             "studyType": "Je suis très rigoureuse."
         },
         {
-            "position": 9,
-            "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Ecoute",
-            "studyType": "Je suis très rigoureuse.\n\n"
-        },
-        {
             "position": 10,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
             "institution": " ",
@@ -171,7 +165,12 @@
     "projects2": [
         {
             "description": "",
-            "name": "Plus de 15 collaborations à travers le monde"
+            "name": "Plus de 15 collaborations à travers le monde",
+            "images": [
+                {
+                    "url": "https://test.juliendubo.is/logos/map-pins.png"
+                }
+            ]
         }
     ],
     "specific": {

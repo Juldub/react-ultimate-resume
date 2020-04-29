@@ -27,6 +27,12 @@ export const mapProjectToJsonResume = (project) => ({
     endDate: project.date && project.date.format('YYYY-MM-DD')
 });
 
+export const mapProject2ToJsonResume = (project) => ({
+    ...project,
+    id: project.id || uuid(),
+    endDate: project.date && project.date.format('YYYY-MM-DD')
+});
+
 export const updateProjectsArray = (newProject, jsonResume) => {
     if (!jsonResume.projects?.length) {
         return { projects: [newProject] };

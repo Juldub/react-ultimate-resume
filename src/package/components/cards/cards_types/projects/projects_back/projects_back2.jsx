@@ -8,7 +8,7 @@ import { ProfileCardTitle } from '../../../../commons/profile_card/profile_card_
 import { ProfileCardContent } from '../../../../commons/profile_card/profile_card_content/profile_card_content';
 import { ProjectSection } from './project_section/project_section';
 
-import { DEFAULT_PROJECT_IMAGE } from '../utils/images';
+import { DEFAULT_PROJECT_IMAGE2 } from '../utils/images';
 import { styles } from './projects_back_styles';
 import { useCardVariant } from '../../../../hooks/profile_card_hooks/use_card_variant';
 import { DeveloperProfileContext } from '../../../../../utils/context/contexts';
@@ -22,7 +22,7 @@ const ProjectsBackComponent = ({ data, handleAddButtonClick }) => {
     const { onEdit } = useContext(DeveloperProfileContext);
     const classes = useStyles({ variant });
 
-    const imageSrc = useMemo(() => data.projects?.[0]?.images?.url ?? DEFAULT_PROJECT_IMAGE, [
+    const imageSrc = useMemo(() => data.projects?.[0]?.images?.url ?? DEFAULT_PROJECT_IMAGE2, [
         data.projects?.[0]?.images
     ]);
     const alt = data.projects?.[0]?.title;
@@ -50,7 +50,7 @@ const ProjectsBackComponent = ({ data, handleAddButtonClick }) => {
                     </div>
                 }
             >
-                <FormattedMessage id="Projects2.back.title" defaultMessage="Projets 2" />
+                <FormattedMessage id="Projects2.back.title" defaultMessage="Projettts 2" />
             </ProfileCardTitle>
             <ProfileCardContent>
                 {data.projects?.map((project) => (

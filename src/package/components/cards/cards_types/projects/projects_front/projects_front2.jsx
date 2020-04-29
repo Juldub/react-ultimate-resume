@@ -13,7 +13,7 @@ import { useCardSide } from '../../../../hooks/profile_card_hooks/use_card_side'
 import { useCardVariant } from '../../../../hooks/profile_card_hooks/use_card_variant';
 
 import { SIDES } from '../../../../commons/profile_card/profile_card_side/side';
-import { DEFAULT_PROJECT_IMAGE } from '../utils/images';
+import { DEFAULT_PROJECT_IMAGE2 } from '../utils/images';
 import { styles } from './projects_front_styles';
 import { existsAndNotEmpty } from '../../../utils/exists_and_not_empty';
 import { NoDataButton } from '../../../../commons/no_data_button/no_data_button';
@@ -29,7 +29,7 @@ const ProjectsFrontComponent = ({ data, handleAddButtonClick }) => {
     ]);
 
     const [variant] = useCardVariant();
-    const imageSrc = useMemo(() => data.project?.[0]?.images?.url ?? DEFAULT_PROJECT_IMAGE, [
+    const imageSrc = useMemo(() => data.project?.[0]?.images?.url ?? DEFAULT_PROJECT_IMAGE2, [
         data.project?.[0]?.images
     ]);
     const alt = data.project?.[0]?.title;
