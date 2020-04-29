@@ -29,6 +29,7 @@ const useStyles = createUseStyles(styles);
 const CARD_TYPE_MAPPING = Object.freeze({
     basics: BasicsSvg,
     projects: ProjectsSvg,
+    projects2: ProjectsSvg,
     language: LanguagesSvg,
     dreamjob: LocationSvg,
     gifs: HobbiesSvg,
