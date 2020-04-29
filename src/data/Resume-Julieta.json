@@ -116,16 +116,32 @@
     ],
     "interests": [
         {
-            "name": "Le swowboard 🏂",
-            "gifUrl": "https://media.giphy.com/media/keyZQjtd96HVXr6m5Z/giphy.gif"
+            "name": "Fruition Sciences",
+            "gifUrl": "http://test.juliendubo.is/logos/logo_fruitionsciences.png"
         },
         {
-            "name": "Le football ⚽️",
-            "gifUrl": "https://media.giphy.com/media/gxupXz6fPDScE/giphy.gif"
+            "name": "Parrot",
+            "gifUrl": "http://test.juliendubo.is/logos/logo_parrot.png"
         },
         {
-            "name": "Les voyages 🗺",
-            "gifUrl": "https://media.giphy.com/media/3o6ZtelrVAOD5EcmCQ/giphy.gif"
+            "name": "DCSA",
+            "gifUrl": "http://test.juliendubo.is/logos/logo_dcsa.jpeg"
+        },
+        {
+            "name": "AirInov",
+            "gifUrl": "http://test.juliendubo.is/logos/logo_airinov.png"
+        },
+        {
+            "name": "Cham Agri",
+            "gifUrl": "http://test.juliendubo.is/logos/logo_chambagri.png"
+        },
+        {
+            "name": "Symbiotics",
+            "gifUrl": "http://test.juliendubo.is/logos/logo_symbiotis.jpeg"
+        },
+        {
+            "name": "Vegepolys Valley",
+            "gifUrl": "http://test.juliendubo.is/logos/logo_vegepolys_valley.png"
         }
 
         
@@ -182,7 +198,7 @@
     "specific": {
         "basics": {
             "visaSponsorship": false,
-            "personalDescription": "Bienvenue sur mon site internet !\nJe m'appelle Julien Dubois, je suis Product Owner freelance à Paris depuis plusieurs années et j'ai le projet de m'installer à Nantes en 2020. "
+            "personalDescription": "Appuyée sur les nouvelles technologies de l'information et de la communication et mettant l’accent sur les chaînes de valeur agricole, ma passion est de vous accompagner dans la transition agricole numérique.\n\nJe vous propose des offres de services innovantes et sur mesure, orientées vers l’AgTech et adaptées à votre stratégie de croissance, de modernisation et d’optimisation de votre activité."
         },
         "dreamJob": {
             "locations": [
@@ -209,7 +225,7 @@
             ],
             "codingYears": 3,
             "experienceYears": 8,
-            "codingReason": "J'ai appris à coder en école d'ingénieur puis en auto-didacte grâce à OpenClassrooms. Aujourd'hui je continue à réaliser des projets personnels car cela m'aide beaucoup dans mon travail et notamment lors de mes collaborations avec les développeurs.\n\n"
+            "codingReason": ""
         },
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/6qga63p2F1uijarfPT9SBK"

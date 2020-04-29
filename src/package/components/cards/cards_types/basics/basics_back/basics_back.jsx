@@ -1,22 +1,22 @@
 import React, { memo, useMemo } from 'react';
 
 import { createUseStyles } from 'react-jss';
-import { FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 import { ProfileCardAnimatedBack } from '../../../../commons/profile_card/profile_card_animated_back/profile_card_animated_back';
 import { ProfileCardSectionTitle } from '../../../../commons/profile_card/profile_card_section_title/profile_card_section_title';
 import { ProfileCardSectionText } from '../../../../commons/profile_card/profile_card_section_text/profile_card_section_text';
 import { ProfileCardSection } from '../../../../commons/profile_card/profile_card_section/profile_card_section';
-import { ContractType } from '../../../../commons/fields/contract_types/contract_types';
+// import { ContractType } from '../../../../commons/fields/contract_types/contract_types';
 
-import { existsAndNotEmpty } from '../../../utils/exists_and_not_empty';
+// import { existsAndNotEmpty } from '../../../utils/exists_and_not_empty';
 
-import { translations } from '../../../../../utils/enums/job_serachstate/job_search_state_translations';
+// import { translations } from '../../../../../utils/enums/job_serachstate/job_search_state_translations';
 import { styles } from './basics_back_styles';
 import { NoDataButton } from '../../../../commons/no_data_button/no_data_button';
-import { ExperienceYears } from './fields/professional_experience';
-import { CodingYears } from './fields/coding_years';
-import { StudiesLevel } from './fields/studies_level';
+// import { ExperienceYears } from './fields/professional_experience';
+// import { CodingYears } from './fields/coding_years';
+// import { StudiesLevel } from './fields/studies_level';
 import { useMode } from '../../../../hooks/use_mode';
 
 const useStyles = createUseStyles(styles);
@@ -26,14 +26,14 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
     const classes = useStyles();
 
     const {
-        currentCity: { name: currentCityName },
+        /* currentCity: { name: currentCityName },
         experienceYears,
         contractTypes,
         studiesLevel,
         codingYears,
         codingReason,
         searchState,
-        visaSponsorship,
+        visaSponsorship, */
         personalDescription
     } = data;
 
@@ -59,7 +59,8 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
                 title: null,
                 hide: false,
                 value: descriptionContent
-            },
+            }
+            /* ,
             visaSponsorship: {
                 hide: !existsAndNotEmpty(visaSponsorship),
                 value: (
@@ -100,19 +101,19 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
                         {codingReason && <span>{codingReason}</span>}
                     </>
                 )
-            }
+            } */
         }),
         [
-            currentCityName,
+            /* currentCityName,
             experienceYears,
             contractTypes,
             studiesLevel,
             codingYears,
             codingReason,
             visaSponsorship,
+            searchState */
             personalDescription,
-            descriptionContent,
-            searchState
+            descriptionContent
         ]
     );
 
@@ -130,12 +131,12 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
     );
 };
 
-const JobSearchState = ({ searchState }) => {
+/* const JobSearchState = ({ searchState }) => {
     const { formatMessage } = useIntl();
     if (!searchState) {
         return null;
     }
     return <span>{formatMessage(translations[searchState] || translations.unknown)}</span>;
-};
+}; */
 
 export const BasicsBack = memo(BasicsBackComponent);
