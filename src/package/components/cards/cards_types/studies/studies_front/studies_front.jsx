@@ -11,7 +11,7 @@ import { ProfileCardFrontTypography } from '../../../../commons/profile_card/pro
 import { ProfileCardActions } from '../../../../commons/profile_card/profile_card_actions/profile_card_actions';
 import { ProfileCardButton } from '../../../../commons/profile_card/profile_card_button/profile_card_button';
 
-import { ReactComponent as SchoolLogo } from '../../../../../assets/icons/school.svg';
+import { ReactComponent as SchoolLogo } from '../../../../../assets/icons/goutte.svg';
 
 import { SIDES } from '../../../../commons/profile_card/profile_card_side/side';
 import { styles } from './studies_front_styles';
