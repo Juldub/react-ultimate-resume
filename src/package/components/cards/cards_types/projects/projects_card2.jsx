@@ -3,9 +3,9 @@ import { ProfileCard } from '../../../commons/profile_card/profile_card';
 import { ProjectsFront2 } from './projects_front/projects_front2';
 import { ProjectsBack2 } from './projects_back/projects_back2';
 import { AddButton } from './add_button_rounded/add_button_rounded';
-import { ProjectDialog2 } from './project_dialog/project_dialog2';
+import { ProjectDialog } from './project_dialog/project_dialog';
 
-import { mapProjectsFromJsonResume } from './data/mapping';
+import { mapProjects2FromJsonResume } from './data/mapping';
 import { DeveloperProfileContext } from '../../../../utils/context/contexts';
 import { validateProjectsComplete } from './data/validator';
 import { SIDES } from '../../../commons/profile_card/profile_card_side/side';
@@ -14,7 +14,7 @@ import { useMode } from '../../../hooks/use_mode';
 const ProjectsCardComponent = ({ variant, side }) => {
     const [mode] = useMode();
     const { data, isEditing } = useContext(DeveloperProfileContext);
-    const mappedData = useMemo(() => mapProjectsFromJsonResume(data), [data]);
+    const mappedData = useMemo(() => mapProjects2FromJsonResume(data), [data]);
 
     const isComplete = useMemo(() => validateProjectsComplete(mappedData), [mappedData]);
 
@@ -42,7 +42,7 @@ const ProjectsCardComponent = ({ variant, side }) => {
             side={currentSide}
             customEditAction={(props) => <AddButton title="Ajouter un projet" {...props} />}
             editDialog={{
-                component: ProjectDialog2,
+                component: ProjectDialog,
                 data: {}
             }}
         />
