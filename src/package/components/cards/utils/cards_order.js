@@ -3,6 +3,7 @@ export const DEFAULT_CARD_ORDER = [
     { type: 'skills', variant: 0 },
     { type: 'dreamjob', variant: 4 },
     { type: 'projects', variant: 4 },
+    { type: 'projects2', variant: 4 },
     { type: 'experiences', variant: 4 },
     { type: 'studies', variant: 4 },
     { type: 'gifs', variant: 0 },

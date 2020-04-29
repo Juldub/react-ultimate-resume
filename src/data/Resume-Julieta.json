@@ -130,16 +130,51 @@
 
         
     ],
+    "projects2": [
+        {
+            "date": {
+                "month": 2,
+                "year": 2016
+            },
+            "description": "Test 1 ",
+            "link": "https://welovedevs.com",
+            "name": "Changer le monde",
+            "old_endDate": "2016-03-20",
+            "endDate": "2016-03-01"
+        },
+        {
+            "date": {
+                "month": 2,
+                "year": 2016
+            },
+            "description": "Test 2",
+            "id": "65c9acee-28e0-473a-b8ca-256defab395c",
+            "link": "https://welovedevs.com",
+            "name": "Changer le monde",
+            "old_endDate": "2016-03-20",
+            "endDate": "2016-03-01"
+        }
+    ],
     "projects": [
         {
             "date": {
                 "month": 2,
                 "year": 2016
             },
-            "description": "Il fallait commencer par changer d'appartement\nDu coup j'ai rangé mes affaires dans des cartons et ensuite j'ai appelé jack",
-            "id": "65c9acee-28e0-473a-b8ca-256defab395c",
+            "description": "TOTOTOTOTOTOTO",
             "link": "https://welovedevs.com",
-            "name": "Changer le monde",
+            "name": "LOOOOOOOL",
+            "old_endDate": "2016-03-20",
+            "endDate": "2016-03-01"
+        },
+        {
+            "date": {
+                "month": 2,
+                "year": 2016
+            },
+            "description": "TROTRO",
+            "link": "https://welovedevs.com",
+            "name": "MDR",
             "old_endDate": "2016-03-20",
             "endDate": "2016-03-01"
         }
@@ -204,8 +239,8 @@
                 "variant": 4
             },
             {
-                "type": "projects",
-                "variant": 4
+                "type": "projects2",
+                "variant": 3
             },
             {
                 "type": "skills",
