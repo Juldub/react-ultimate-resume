@@ -50,7 +50,7 @@ const ProjectsBackComponent = ({ data, handleAddButtonClick }) => {
                     </div>
                 }
             >
-                <FormattedMessage id="Projects2.back.title" defaultMessage="Projettts 2" />
+                <FormattedMessage id="Projects2.back.title" defaultMessage="Projets" />
             </ProfileCardTitle>
             <ProfileCardContent>
                 {data.projects?.map((project) => (
