@@ -34,6 +34,7 @@ const CARD_TYPE_MAPPING = Object.freeze({
     dreamjob: LocationSvg,
     gifs: HobbiesSvg,
     experiences: ExperiencesSvg,
+    experiences2: ExperiencesSvg,
     studies: SchoolSvg,
     skills: SkillsSvg,
     soundtrack: SoundtrackSvg,

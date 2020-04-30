@@ -19,6 +19,53 @@
             "location": ""
         }
     ],
+    "work2": [
+        {
+            "name": "A venir 🚀",
+            "position": "",
+            "website": "https://connect.axa.fr/#/",
+            "startDate": "2019-12-01",
+            "endDate": "2020-03-27",
+            "summary": "texte 2",
+            "location": ""
+        },
+        {
+            "name": "SIVAL Angers",
+            "position": "Agreen Startup",
+            "website": "www.sival.fr",
+            "startDate": "2021-01-01",
+            "endDate": "2021-01-31",
+            "summary": "super évenement",
+            "location": "Angers, France"
+        },
+        {
+            "name": "Salon International de l’Agriculture (SIA)",
+            "position": "Agreen Startup",
+            "website": "www.toto.fr",
+            "startDate": "2021-02-01",
+            "endDate": "2021-02-28",
+            "summary": "super évenement 2",
+            "location": "Paris, France"
+        },
+        {
+            "name": "super formation",
+            "position": "Formation continue avec l’ESA d’Angers",
+            "website": "https://esante.gouv.fr/projets-nationaux/si-samu",
+            "startDate": "2017-10-01",
+            "endDate": "2018-10-30",
+            "summary": "toto",
+            "location": "Paris, France"
+        },
+        {
+            "name": "super formation",
+            "position": "Webinars AgTech Community",
+            "website": "https://esante.gouv.fr/projets-nationaux/si-samu",
+            "startDate": "2017-10-01",
+            "endDate": "2018-10-30",
+            "summary": "toto",
+            "location": "Paris, France"
+        }
+    ],
     "education": [
         {
             "position": 0,
@@ -245,7 +292,7 @@
                 "variant": 4
             },
             {
-                "type": "experiences",
+                "type": "experiences2",
                 "variant": 4
             }
         ],

@@ -1,8 +1,25 @@
 import moment from 'moment';
 import uuid from 'uuid/v4';
+/* eslint-disable eol-last */
 
 export const mapWorkFromJsonResume = (jsonResume) => ({
     work: jsonResume?.work?.map((work, index) => ({
+        ...work,
+        // generating uuid for manipulating data if not present
+        id: work.id || uuid(),
+        startDate: work.startDate && moment(work.startDate, 'YYYY-MM-DD'),
+        endDate: work.endDate && moment(work.endDate, 'YYYY-MM-DD'),
+        place: {
+            name: work.location,
+            placeId: work.placeId
+        },
+        stillEmployed: !work.endDate,
+        index
+    }))
+});
+
+export const mapWork2FromJsonResume = (jsonResume) => ({
+    work: jsonResume?.work2?.map((work, index) => ({
         ...work,
         // generating uuid for manipulating data if not present
         id: work.id || uuid(),

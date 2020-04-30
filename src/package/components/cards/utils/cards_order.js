@@ -5,6 +5,7 @@ export const DEFAULT_CARD_ORDER = [
     { type: 'projects', variant: 4 },
     { type: 'projects2', variant: 4 },
     { type: 'experiences', variant: 4 },
+    { type: 'experiences2', variant: 3 },
     { type: 'studies', variant: 4 },
     { type: 'gifs', variant: 0 },
     { type: 'interestedBy', variant: 3 },
