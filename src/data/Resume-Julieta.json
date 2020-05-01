@@ -12,7 +12,7 @@
         {
             "name": "",
             "position": "Mais c’est quoi l’AgTech ?",
-            "website": "https://connect.axa.fr/#/",
+            "website": "",
             "startDate": "",
             "endDate": "",
             "summary": "Quand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval de la chaîne de valeur agricole.\n\nL’AgTech a pour principal objectif de collecter, de stocker, de traiter et d’échanger des données numériques. Ces données sont des informations acquises manuellement ou par l’intermédiaire des outils informatiques sur le terrain ou récupérées dans les bases de données historiques. Lorsque l’on croise un grand volume de données on parle de big data.\n\nDiverses sont les technologies et les méthodes utilisées pour créer et traiter le big data :\n\n- Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, objets connectés, télédétection\n- Localisation géographique des informations : géolocalisation par satellite\n- Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales\n- Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique\n- Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation\n- Échanges de données informatisées : internet, ordinateur, tablette, smartphone\n\n",
@@ -23,7 +23,7 @@
         {
             "name": "A venir 🚀",
             "position": "",
-            "website": "https://connect.axa.fr/#/",
+            "website": "",
             "startDate": "2019-12-01",
             "endDate": "2020-03-27",
             "summary": "texte 2",
@@ -48,21 +48,21 @@
             "location": "Paris, France"
         },
         {
-            "name": "super formation",
-            "position": "Formation continue avec l’ESA d’Angers",
-            "website": "https://esante.gouv.fr/projets-nationaux/si-samu",
+            "name": "Formation continue",
+            "position": "ESA d’Angers",
+            "website": "",
             "startDate": "2017-10-01",
             "endDate": "2018-10-30",
-            "summary": "toto",
+            "summary": "Une formation trop super géniale !",
             "location": "Paris, France"
         },
         {
-            "name": "super formation",
-            "position": "Webinars AgTech Community",
-            "website": "https://esante.gouv.fr/projets-nationaux/si-samu",
+            "name": "Webinars",
+            "position": "AgTech Community",
+            "website": "",
             "startDate": "2017-10-01",
             "endDate": "2018-10-30",
-            "summary": "toto",
+            "summary": "Un Webinar de dingue, venez 🤙🏻\n\n",
             "location": "Paris, France"
         }
     ],
@@ -182,7 +182,7 @@
         },
         {
             "name": "Vegepolys Valley",
-            "gifUrl": "https://test.juliendubo.is/logos/logo_vegepolys_valley.png"
+            "gifUrl": "//julietacontreras.pro/logos/logo_vegepolys_valley.png"
         }
 
         
@@ -215,7 +215,7 @@
             "name": "Plus de 15 collaborations à travers le monde",
             "images": [
                 {
-                    "url": "https://test.juliendubo.is/logos/map-pins.png"
+                    "url": "https://julietacontreras.pro/images/map-pins.png"
                 }
             ]
         }
@@ -229,7 +229,7 @@
             "locations": [
                 {
                     "index": 0,
-                    "name": "Nantes",
+                    "name": "",
                     "id": "89b7777a-467d-4ab9-85ad-d34214df9f59"
                 }
             ],
