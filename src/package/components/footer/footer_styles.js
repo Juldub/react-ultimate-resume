@@ -31,6 +31,7 @@ export const styles = (theme) => {
             display: 'flex'
         },
         logo: {
+            display: 'none',
             height: 26,
             width: 'unset',
             '& > g': {
@@ -41,6 +42,7 @@ export const styles = (theme) => {
             display: 'flex'
         },
         githubLogo: {
+            display: 'none',
             height: 30,
             width: 'unset',
             fill: palette.light[900]

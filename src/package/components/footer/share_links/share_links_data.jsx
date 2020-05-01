@@ -40,7 +40,7 @@ export const SHARE_LINKS_DATA = Object.freeze({
                 values={{ platform: 'LinkedIn' }}
             />
         ),
-        getLink: ({ lien = 'julien-dubois' }) => `https://www.linkedin.com/in/${(lien)}`
+        getLink: ({ lien = 'julietac' }) => `https://www.linkedin.com/in/${lien}`
     },
     copyShareUrl: {
         icon: (props) => (
