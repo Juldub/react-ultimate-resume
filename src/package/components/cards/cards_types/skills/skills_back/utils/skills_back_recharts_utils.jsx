@@ -43,7 +43,7 @@ const CustomLabel = (props) => {
         const cosLocal = Math.cos(-RADIAN * midAngle);
         const startXLocal = cx + outerRadius * cosLocal;
         const startYLocal = cy + outerRadius * sinLocal;
-        const inflexionXLocal = cx + (outerRadius + 20) * cosLocal;
+        const inflexionXLocal = cx + (outerRadius + 0) * cosLocal;
         const inflexionYLocal = cy + (outerRadius + 20) * sinLocal;
         const endXLocal = inflexionXLocal + (cosLocal >= 0 ? 1 : -1) * 25;
         return {
