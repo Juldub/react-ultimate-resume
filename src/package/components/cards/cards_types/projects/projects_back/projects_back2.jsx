@@ -6,7 +6,7 @@ import { createUseStyles } from 'react-jss';
 import { ProfileCardTitle } from '../../../../commons/profile_card/profile_card_title/profile_card_title';
 
 import { ProfileCardContent } from '../../../../commons/profile_card/profile_card_content/profile_card_content';
-import { ProjectSection } from './project_section/project_section';
+import { ProjectSection2 } from './project_section/project_section2';
 
 import { DEFAULT_PROJECT_IMAGE2 } from '../utils/images';
 import { styles } from './projects_back_styles';
@@ -54,7 +54,7 @@ const ProjectsBackComponent = ({ data, handleAddButtonClick }) => {
             </ProfileCardTitle>
             <ProfileCardContent>
                 {data.projects?.map((project) => (
-                    <ProjectSection project={project} key={`project_${project.id}`} onDelete={handleProjectDeletion} />
+                    <ProjectSection2 project={project} key={`project_${project.id}`} onDelete={handleProjectDeletion} />
                 ))}
                 {!existsAndNotEmpty(data?.projects) && <NoProject handleAddButtonClick={handleAddButtonClick} />}
             </ProfileCardContent>
