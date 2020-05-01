@@ -30,11 +30,11 @@
             "location": ""
         },
         {
-            "name": "SIVAL Angers",
+            "name": "SIVAL",
             "position": "Agreen Startup",
             "website": "www.sival.fr",
             "startDate": "2021-01-01",
-            "endDate": "2021-01-31",
+            "endDate": "",
             "summary": "super évenement",
             "location": "Angers, France"
         },
@@ -43,7 +43,7 @@
             "position": "Agreen Startup",
             "website": "www.toto.fr",
             "startDate": "2021-02-01",
-            "endDate": "2021-02-28",
+            "endDate": "",
             "summary": "super évenement 2",
             "location": "Paris, France"
         },
@@ -158,31 +158,31 @@
     "interests": [
         {
             "name": "",
-            "gifUrl": "http://test.juliendubo.is/logos/logo_fruitionsciences.png"
+            "gifUrl": "//julietacontreras.pro/logos/logo_fruitionsciences.png"
         },
         {
             "name": "Parrot",
-            "gifUrl": "http://test.juliendubo.is/logos/logo_parrot.png"
+            "gifUrl": "//julietacontreras.pro/logos/logo_parrot.png"
         },
         {
             "name": "DCSA",
-            "gifUrl": "http://test.juliendubo.is/logos/logo_dcsa.jpeg"
+            "gifUrl": "//julietacontreras.pro/logos/logo_dcsa.jpeg"
         },
         {
             "name": "AirInov",
-            "gifUrl": "http://test.juliendubo.is/logos/logo_airinov.png"
+            "gifUrl": "//julietacontreras.pro/logos/logo_airinov.png"
         },
         {
             "name": "Cham Agri",
-            "gifUrl": "http://test.juliendubo.is/logos/logo_chambagri.png"
+            "gifUrl": "//julietacontreras.pro/logos/logo_chambagri.png"
         },
         {
             "name": "Symbiotics",
-            "gifUrl": "http://test.juliendubo.is/logos/logo_symbiotis.jpeg"
+            "gifUrl": "//julietacontreras.pro/logos/logo_symbiotis.jpeg"
         },
         {
             "name": "Vegepolys Valley",
-            "gifUrl": "http://test.juliendubo.is/logos/logo_vegepolys_valley.png"
+            "gifUrl": "https://test.juliendubo.is/logos/logo_vegepolys_valley.png"
         }
 
         
@@ -255,11 +255,11 @@
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/6qga63p2F1uijarfPT9SBK"
         },
-        "interestedBy": "Le Product Management, le Javascript et la Ligue 1 Conforama."
+        "interestedBy": " "
     },
     "resumeCustomization": {
         "imageHeader": {
-            "url": "//juliendubo.is/banniere.png",
+            "url": "//julietacontreras.pro/images/banniere.png",
             "alt": "Default Banner"
         },
         "cardsOrder": [
@@ -337,6 +337,11 @@
                     "900": "#242d1f",
                     "contrastDefaultColor": "light"
                 }
+            }
+        },
+        "fields": {
+            "work": {
+                "customDateFormat": "DD/MM/YYYY"
             }
         }
     }

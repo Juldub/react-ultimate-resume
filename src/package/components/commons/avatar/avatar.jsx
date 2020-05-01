@@ -11,7 +11,7 @@ import { styles } from './avatar_styles';
 const useStyles = createUseStyles(styles);
 
 // test
-const DEFAULT_IMAGE = '//juliendubo.is/photo-julieta.jpg';
+const DEFAULT_IMAGE = '//julietacontreras.pro/images/photo-julieta.jpg';
 const AvatarComponent = ({ src, displayedName }) => {
     const classes = useStyles();
     const [receivedGlobalClasses] = useReceivedGlobalClasses('banner.avatar');
