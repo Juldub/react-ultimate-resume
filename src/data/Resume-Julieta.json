@@ -191,7 +191,12 @@
         {
             "name": "Intelligence collective",
             "description": "Test 2",
-            "link": ""
+            "link": "",
+            "images": [
+                {
+                    "url": "https://julietacontreras.pro/images/map-pins.png"
+                }
+            ]
         },
         {
             "name": "Dynamique Agile",
@@ -211,8 +216,8 @@
     ],
     "projects2": [
         {
-            "description": "Au cours de ma carrière j'aitravaillé dans plus de 10 pays...",
-            "name": "Plus de 15 collaborations à travers le monde",
+            "description": "\nCliquez sur la carte pour voir où.",
+            "name": "Plusieurs collaborations partout à travers le monde",
             "images": [
                 {
                     "url": "https://julietacontreras.pro/images/map-pins.png"

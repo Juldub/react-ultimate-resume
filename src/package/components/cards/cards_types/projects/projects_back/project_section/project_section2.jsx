@@ -18,7 +18,7 @@ import { ReactComponent as RemoveIcon } from '../../../../../../assets/icons/rem
 import { useIsEditing } from '../../../../../hooks/use_is_editing';
 import { useCallbackOpen } from '../../../../../hooks/use_callback_open';
 
-import { styles } from './project_section_styles';
+import { styles } from './project_section_styles2';
 import { useCardVariant } from '../../../../../hooks/profile_card_hooks/use_card_variant';
 import { getColorsFromCardVariant } from '../../../../../../utils/styles/styles_utils';
 

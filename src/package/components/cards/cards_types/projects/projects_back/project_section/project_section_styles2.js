@@ -5,7 +5,7 @@ export const styles = (theme) => {
     return {
         sectionText: {
             margin: [spacing * 3, 0],
-            display: 'none'
+            visibility: 'hidden'
         },
         details: {
             marginLeft: -(spacing * 1.5),

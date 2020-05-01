@@ -9,8 +9,8 @@ export const styles = (theme) => {
     } = theme;
     return {
         container: {
-            height: 125,
-            width: 200,
+            height: 250,
+            width: 400,
             minHeight: 125,
             minWidth: 200,
             margin: spacing,

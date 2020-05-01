@@ -23,7 +23,7 @@ const ConfirmDialogComponent = ({ open, onClose, onConfirm, title = DefaultTitle
         </DialogContent>
         <DialogActions>
             <Button size="small" onClick={onClose}>
-                <FormattedMessage id="Main.lang.close" defaultMessage="Close" />
+                <FormattedMessage id="Main.lang.close" defaultMessage="Fermer" />
             </Button>
             <Button color="primary" size="small" onClick={onConfirm}>
                 <FormattedMessage id="Main.lang.confirm" defaultMessage="Confirm" />
