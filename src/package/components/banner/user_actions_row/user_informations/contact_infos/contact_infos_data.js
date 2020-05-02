@@ -9,8 +9,7 @@ export const CONTACT_INFOS_DATA = Object.freeze({
         path: 'basics.name',
         translation: translations.name,
         icon: PersonIcon,
-        onlyDialog: true,
-        color: 'white'
+        onlyDialog: true
     },
     /* phone: {
         path: 'basics.phone',
@@ -20,7 +19,6 @@ export const CONTACT_INFOS_DATA = Object.freeze({
     email: {
         path: 'basics.email',
         translation: translations.email,
-        icon: EmailIcon,
-        color: 'white'
+        icon: EmailIcon
     }
 });
