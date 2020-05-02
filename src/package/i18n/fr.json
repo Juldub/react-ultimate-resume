@@ -140,6 +140,7 @@
   "Footer.github.tooltip": "Profil GitHub de Julien Dubois",
   "Footer.link.message": "Get to know me more, discover my profile on @welovedevs ➡️ {link}",
   "Footer.shareLinks.copyUrl": "Copier l'URL du profil",
+  "Footer.shareLinks.emailMe": "Copier mon adresse email",
   "Footer.shareLinks.shareOnTooltip": "Mon profil {platform}",
   "Form.Url.input.title": "Entrez une url",
   "Form.validation.global.changeNumber": "Veuillez changer la valeur par défaut de ce champ",
