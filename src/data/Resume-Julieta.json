@@ -2,7 +2,7 @@
 {
     "basics": {
         "name": "Julieta Contreras",
-        "label": "Experte NTIC",
+        "label": "test Experte NTIC",
         "picture": "",
         "summary": "AgTech Expert",
         "email": "Construisons ensemble l'agriculture numérique avec de l'intelligence",
@@ -161,31 +161,29 @@
             "gifUrl": "//julietacontreras.pro/logos/logo_fruitionsciences.png"
         },
         {
-            "name": "Parrot",
-            "gifUrl": "//julietacontreras.pro/logos/logo_parrot.png"
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/logo_vegepolys_valley.png"
         },
         {
-            "name": "DCSA",
-            "gifUrl": "//julietacontreras.pro/logos/logo_dcsa.jpeg"
-        },
-        {
-            "name": "AirInov",
-            "gifUrl": "//julietacontreras.pro/logos/logo_airinov.png"
-        },
-        {
-            "name": "Cham Agri",
+            "name": "",
             "gifUrl": "//julietacontreras.pro/logos/logo_chambagri.png"
         },
         {
-            "name": "Symbiotics",
-            "gifUrl": "//julietacontreras.pro/logos/logo_symbiotis.jpeg"
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/logo_esa.png"
         },
         {
-            "name": "Vegepolys Valley",
-            "gifUrl": "//julietacontreras.pro/logos/logo_vegepolys_valley.png"
-        }
-
-        
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/logo_DCSA.png"
+        },
+        {
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/logo_parrot-airinov.png"
+        },
+        {
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/logo_symbiotis.png"
+        } 
     ],
     "projects": [
         {
