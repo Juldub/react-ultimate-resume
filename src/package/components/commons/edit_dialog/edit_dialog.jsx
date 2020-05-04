@@ -23,7 +23,7 @@ const EditDialogComponent = ({
     data,
     onEdit,
     children,
-    title = '✏️',
+    title = ' ',
     validationSchema,
     isEditing,
     classes: receivedClasses = {}

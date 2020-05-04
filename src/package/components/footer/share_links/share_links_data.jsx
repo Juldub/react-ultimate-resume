@@ -53,7 +53,7 @@ export const SHARE_LINKS_DATA = Object.freeze({
     },
     emailMe: {
         icon: (props) => (
-            <CopyWrapper value={'bonjour@julietacontreras.pro'}>
+            <CopyWrapper value={'julieta.contreras.pro@gmail.com'}>
                 <MailIcon {...props} />
             </CopyWrapper>
         ),

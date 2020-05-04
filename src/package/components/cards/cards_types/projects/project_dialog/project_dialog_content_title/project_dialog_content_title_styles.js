@@ -11,7 +11,7 @@ export const styles = (theme) => {
             })
         }),
         typography: {
-            fontSize: 32
+            fontSize: 28
         }
     };
 };

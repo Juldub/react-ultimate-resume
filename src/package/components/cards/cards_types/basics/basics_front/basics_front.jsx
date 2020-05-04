@@ -62,7 +62,7 @@ const BasicsFrontComponent = ({ data, handleAddButtonClick }) => {
                             )
                         }}
                     >
-                        {data.summary}
+                        {data.label}
                     </ProfileCardFrontTypography>
                     {currentCityName && (
                         <ProfileCardFrontTypography

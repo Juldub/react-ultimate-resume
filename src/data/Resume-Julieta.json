@@ -2,26 +2,26 @@
 {
     "basics": {
         "name": "Julieta Contreras",
-        "label": "test Experte NTIC",
+        "label": "AgTech Expert, mordue d’entreprendre",
         "picture": "",
-        "summary": "AgTech Expert",
+        "summary": "AgroTIC consulting",
         "email": "Construisons ensemble l'agriculture numérique avec de l'intelligence",
         "location": {}
     },
     "work": [
         {
             "name": "",
-            "position": "Mais c’est quoi l’AgTech ?",
-            "website": "",
+            "position": "C’est quoi l’AgTech ?",
+            "website": "www.sival.fr",
             "startDate": "",
             "endDate": "",
-            "summary": "Quand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval de la chaîne de valeur agricole.\n\nL’AgTech a pour principal objectif de collecter, de stocker, de traiter et d’échanger des données numériques. Ces données sont des informations acquises manuellement ou par l’intermédiaire des outils informatiques sur le terrain ou récupérées dans les bases de données historiques. Lorsque l’on croise un grand volume de données on parle de big data.\n\nDiverses sont les technologies et les méthodes utilisées pour créer et traiter le big data :\n\n‣ Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, objets connectés, télédétection\n‣ Localisation géographique des informations : géolocalisation par satellite\n‣ Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales\n‣ Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique\n‣ Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation\n‣ Échanges de données informatisées : internet, ordinateur, tablette, smartphone\n\n",
+            "summary": "AGTECH = AGriculture + TECHnologies\n\nQuand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval dans les chaînes de valeur du secteur agricole. On parle bien de l’Agriculture, la Viticulture et l’Elevage.\n\nL’AgTech est basée sur la collecte, le stockage, le traitement et l’échange de données. Ces données sont des informations acquises manuellement par une personne ou automatiquement par l’intermédiaire d’outils informatiques sur le terrain.\n\nDes bases de données provenant de multiples origines sont alors générées. Lorsque l’on croise un grand volume de données informatiques, qui dépasse le volume de données qu’un cerveau humain est capable de traiter, on parle de big data.\n\nNombreuses sont les technologies et les méthodes qui existent pour créer et traiter le big data. En voici quelques exemples utilisés dans le secteur agricole :\n\n ‣ Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, objets connectés, télédétection. \n\n ‣ Localisation géographique des informations : géolocalisation par satellite. \n\n ‣ Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales. \n\n ‣ Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique.\n\n ‣ Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation agronomique.\n\n ‣ Échanges de données informatisées : internet, ordinateur, tablette, smartphone.\n\n",
             "location": ""
         }
     ],
     "work2": [
         {
-            "name": "A venir 🚀",
+            "name": "Et prochainement...",
             "position": "",
             "website": "",
             "startDate": "2019-12-01",
@@ -31,38 +31,38 @@
         },
         {
             "name": "SIVAL",
-            "position": "Agreen Startup",
+            "position": "Agreen Startup SIVAL",
             "website": "www.sival.fr",
-            "startDate": "2021-01-01",
-            "endDate": "",
+            "startDate": "2021-01-12",
+            "endDate": "2021-01-14",
             "summary": "super évenement",
             "location": "Angers, France"
         },
         {
-            "name": "Salon International de l’Agriculture (SIA)",
-            "position": "Agreen Startup",
+            "name": "SIA",
+            "position": "Agreen Startup SIA",
             "website": "www.toto.fr",
             "startDate": "2021-02-01",
-            "endDate": "",
+            "endDate": "2021-02-03",
             "summary": "super évenement 2",
             "location": "Paris, France"
         },
         {
             "name": "Formation continue",
             "position": "ESA d’Angers",
-            "website": "",
-            "startDate": "2017-10-01",
-            "endDate": "2018-10-30",
-            "summary": "Une formation trop super géniale !",
-            "location": "Paris, France"
+            "website": "www.formation.fr",
+            "startDate": "2020-09-01",
+            "endDate": "",
+            "summary": "‣ Webinars AgTech Community\n‣ Webinars AgTech Community",
+            "location": "Angers, France"
         },
         {
             "name": "Webinars",
             "position": "AgTech Community",
-            "website": "",
+            "website": "www.webinar.fr",
             "startDate": "2017-10-01",
             "endDate": "2018-10-30",
-            "summary": "Un Webinar de dingue, venez 🤙🏻\n\n",
+            "summary": "En cours de préparation",
             "location": "Paris, France"
         }
     ],
@@ -70,56 +70,56 @@
         {
             "position": 0,
             "id": "f1c8eff9-4cf0-4768-bc1b-6327318474ff",
-            "institution": "Professionalisme",
-            "studyType": "Je suis très pro."
+            "institution": "Professionalisme...",
+            "studyType": "...dans l’organisation et la traçabilité d’une collaboration performante."
         },
         {
             "position": 1,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Rigueur",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "Rigueur...",
+            "studyType": "... pour répondre à vos exigences de qualité."
         },
         {
             "position": 2,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Ecoute",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "Ecoute...",
+            "studyType": "...pour m’adapter à votre demande et trouver ensemble les solutions clés."
         },
         {
             "position": 3,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Confidentialité",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "Confidentialité...",
+            "studyType": "...est ma devise pour la réussite d’un partenariat en pleine confiance."
         },
         {
             "position": 4,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Innovation",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "Innovation...",
+            "studyType": "...dans un contexte de transition numérique et réglementaire."
         },
         {
             "position": 5,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Sérieux",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "Sérieux...",
+            "studyType": "...dans la prise de décisions stratégiques."
         },
         {
             "position": 6,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "International",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "International...",
+            "studyType": "...est mon échelle d’action."
         },
         {
             "position": 7,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Orientation",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "Orientation...",
+            "studyType": "...pour vous accompagner dans mon domaine d’expertise."
         },
         {
             "position": 8,
             "id": "c2b6cf0c-3064-453c-b0b1-7813cbfa2444",
-            "institution": "Nouveauté",
-            "studyType": "Je suis très rigoureuse."
+            "institution": "Nouveauté...",
+            "studyType": "...dans la mise en place d’approches innovantes et rentables."
         },
         {
             "position": 10,
@@ -188,34 +188,34 @@
     "projects": [
         {
             "name": "Intelligence collective",
-            "description": "Test 2",
+            "description": "Des rencontres en présentiel et à distance pour analyser vos besoins et co-construire les solutions le mieux adaptées à votre contexte.",
             "link": "",
             "images": [
                 {
-                    "url": "https://julietacontreras.pro/images/map-pins.png"
+                    "url": "//julietacontreras.pro/images/map-pins.png"
                 }
             ]
         },
         {
             "name": "Dynamique Agile",
-            "description": "Test 3",
+            "description": "Des séances de travail itératives pour ajuster les solutions tout au long de notre collaboration.",
             "link": ""
         },
         {
-            "name": "Outils et services AgTech",
-            "description": "Test 4",
+            "name": "Solutions AgTech",
+            "description": "Conseil, formation et accompagnement pour incorporer dans votre structure des outils et des services AgTech.",
             "link": ""
         },
         {
             "name": "Mise en réseau",
-            "description": "Test 5",
+            "description": "Prise de contact ciblée et mise à disposition d’un carnet d’adresses international.",
             "link": ""
         }
     ],
     "projects2": [
         {
-            "description": "\nCliquez sur la carte pour voir où.",
-            "name": "Plusieurs collaborations partout à travers le monde",
+            "description": "Cliquez sur la carte pour voir où.",
+            "name": "Plusieurs collaborations à travers le monde",
             "images": [
                 {
                     "url": "https://julietacontreras.pro/images/map-pins.png"
@@ -268,15 +268,15 @@
         "cardsOrder": [
             {
                 "type": "basics",
-                "variant": 4
+                "variant": 2
             },
             {
                 "type": "projects",
-                "variant": 4
+                "variant": 0
             },
             {
                 "type": "gifs",
-                "variant": 0
+                "variant": 4
             },
             {
                 "type": "experiences",
@@ -292,7 +292,7 @@
             },
             {
                 "type": "studies",
-                "variant": 4
+                "variant": 3
             },
             {
                 "type": "experiences2",

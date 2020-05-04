@@ -26,6 +26,9 @@ export const styles = (theme) => {
         },
         detailTypography: {
             color: ['inherit', '!important']
+        },
+        customDateFormat: {
+            fontSize: 5
         }
     };
 };

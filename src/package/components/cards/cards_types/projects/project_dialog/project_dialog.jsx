@@ -1,6 +1,6 @@
 import React, { useCallback, useContext, useMemo } from 'react';
 
-import { FormattedMessage, useIntl } from 'react-intl';
+import { useIntl } from 'react-intl';
 import { createUseStyles } from 'react-jss';
 
 import { useFormikContext } from 'formik';
@@ -46,7 +46,7 @@ const ProjectDialogComponent = ({ open, onClose, data: project, isEditing }) => 
             onEdit={onDialogEdited}
             validationSchema={validator}
             isEditing={isEditing}
-            title={<FormattedMessage id="Project.editDialog.title" defaultMessage="Project's details" />}
+            // title={<FormattedMessage id="Project.editDialog.title" defaultMessage="Project's details" />}
         >
             {() => <ProjectDialogContent isEditing={isEditing} />}
         </EditDialog>
@@ -60,7 +60,7 @@ const ProjectDialogContent = ({ isEditing }) => {
     return (
         <>
             <div className={classes.headrow}>
-                <ProjectDialogContentTitle isEditing={isEditing} title={project.title} />
+                <ProjectDialogContentTitle isEditing={isEditing} title={project.name} />
                 <ProjectDialogContentDate isEditing={isEditing} date={project.data} />
             </div>
             <ProjectDialogContentDescription isEditing={isEditing} description={project.description} />

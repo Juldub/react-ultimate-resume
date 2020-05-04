@@ -42,7 +42,7 @@ const ExperienceContent = ({ experience, variant, classes }) => {
         }
         const startDate = experience.startDate.isValid() ? experience.startDate.format(displayFormat) : '';
         const endDate = experience.endDate.isValid() ? experience.endDate.format(displayFormat) : '';
-        return `${startDate} - ${endDate}`;
+        return `Du ${startDate} au ${endDate}`;
     }, [experience, customization?.fields?.work?.customDateFormat]);
 
     const [cardVariant] = useCardVariant();
