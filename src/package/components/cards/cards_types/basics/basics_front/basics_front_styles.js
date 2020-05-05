@@ -21,7 +21,7 @@ export const styles = (theme) => {
             flexDirection: 'column'
         },
         text: {
-            margin: [0, '!important']
+            margin: [10, '!important']
         },
         addButton: {
             marginTop: spacing * 4,

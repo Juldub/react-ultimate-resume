@@ -2,7 +2,7 @@
 {
     "basics": {
         "name": "Julieta Contreras",
-        "label": "AgTech Expert, mordue d’entreprendre",
+        "label": "AgTech Expert",
         "picture": "",
         "summary": "AgroTIC consulting",
         "email": "Construisons ensemble l'agriculture numérique avec de l'intelligence",
@@ -15,7 +15,7 @@
             "website": "www.sival.fr",
             "startDate": "",
             "endDate": "",
-            "summary": "AGTECH = AGriculture + TECHnologies\n\nQuand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval dans les chaînes de valeur du secteur agricole. On parle bien de l’Agriculture, la Viticulture et l’Elevage.\n\nL’AgTech est basée sur la collecte, le stockage, le traitement et l’échange de données. Ces données sont des informations acquises manuellement par une personne ou automatiquement par l’intermédiaire d’outils informatiques sur le terrain.\n\nDes bases de données provenant de multiples origines sont alors générées. Lorsque l’on croise un grand volume de données informatiques, qui dépasse le volume de données qu’un cerveau humain est capable de traiter, on parle de big data.\n\nNombreuses sont les technologies et les méthodes qui existent pour créer et traiter le big data. En voici quelques exemples utilisés dans le secteur agricole :\n\n ‣ Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, objets connectés, télédétection. \n\n ‣ Localisation géographique des informations : géolocalisation par satellite. \n\n ‣ Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales. \n\n ‣ Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique.\n\n ‣ Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation agronomique.\n\n ‣ Échanges de données informatisées : internet, ordinateur, tablette, smartphone.\n\n",
+            "summary": "AGTECH = AGriculture + TECHnologies\n\nQuand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval dans les chaînes de valeur du secteur agricole. On parle bien de l’Agriculture, la Viticulture et l’Elevage.\n\nL’AgTech est basée sur la collecte, le stockage, le traitement et l’échange de données. Ces données sont des informations acquises manuellement par une personne ou automatiquement par l’intermédiaire d’outils informatiques sur le terrain.\n\nDes bases de données provenant de multiples origines sont alors générées. Lorsque l’on croise un grand volume de données informatiques, qui dépasse le volume de données qu’un cerveau humain est capable de traiter, on parle de big data.\n\nNombreuses sont les technologies et les méthodes qui existent pour créer et traiter le big data. En voici quelques exemples utilisés dans le secteur agricole :\n\n ‣ Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, objets connectés, télédétection. \n\n ‣ Localisation géographique des informations : géolocalisation par satellite. \n\n ‣ Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales. \n\n ‣ Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique.\n\n ‣ Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation agronomique.\n\n ‣ Échanges de données informatisées : internet, ordinateur, tablette, smartphone.\n\n Venez prendre part de l’AgTech Community pour donner plus de sens à l’AgTech !",
             "location": ""
         }
     ],
@@ -30,40 +30,40 @@
             "location": ""
         },
         {
-            "name": "SIVAL",
-            "position": "Agreen Startup SIVAL",
-            "website": "www.sival.fr",
-            "startDate": "2021-01-12",
-            "endDate": "2021-01-14",
-            "summary": "super évenement",
+            "name": "Conférences en ligne",
+            "position": "AgTech Community",
+            "website": "https://www.eventbrite.fr/e/billets-dessine-moi-lagtech-103503100560",
+            "startDate": "2017-06-02",
+            "endDate": "",
+            "summary": "Rejoignez notre communauté AgTech !",
+            "location": "Webinars"
+        },
+        {
+            "name": "Avec l'ESA d’Angers",
+            "position": "Formation au Numérique en Agriculture",
+            "website": "Formulaire d'inscriptions bientôt disponible",
+            "startDate": "2020-09-01",
+            "endDate": "",
+            "summary": "Formation continue de 3 jours :\n ‣ Contexte et usages du numérique en France\n ‣ Exemples de technologies utilisées en Agriculture, Viticulture et Elevage\n ‣ Focus sur les objets connectés\n ‣ Focus sur les acteurs AgTech\n Pour obtenir plus d’informations, contactez-moi par email (lien en bas de page)",
             "location": "Angers, France"
         },
         {
             "name": "SIA",
             "position": "Agreen Startup SIA",
-            "website": "www.toto.fr",
-            "startDate": "2021-02-01",
-            "endDate": "2021-02-03",
-            "summary": "super évenement 2",
-            "location": "Paris, France"
-        },
-        {
-            "name": "Formation continue",
-            "position": "ESA d’Angers",
-            "website": "www.formation.fr",
-            "startDate": "2020-09-01",
+            "website": "http://www.agreen-startup.com/choisir-un-concours/",
+            "startDate": "",
             "endDate": "",
-            "summary": "‣ Webinars AgTech Community\n‣ Webinars AgTech Community",
-            "location": "Angers, France"
+            "summary": "Faites pousser votre startup à vitesse accélérée dans le cadre du salon international de l’agriculture.",
+            "location": "Paris, France"
         },
         {
-            "name": "Webinars",
-            "position": "AgTech Community",
-            "website": "www.webinar.fr",
-            "startDate": "2017-10-01",
-            "endDate": "2018-10-30",
-            "summary": "En cours de préparation",
-            "location": "Paris, France"
+            "name": "SIVAL",
+            "position": "Agreen Startup SIVAL",
+            "website": "https://www.sival-angers.com/innovation/concours-agreen-startup/",
+            "startDate": "2021-02-12",
+            "endDate": "2021-02-14",
+            "summary": "Faites pousser votre startup à vitesse accélérée dans le cadre du salon international des productions végétales.",
+            "location": "Angers, France" 
         }
     ],
     "education": [
@@ -191,25 +191,39 @@
             "description": "Des rencontres en présentiel et à distance pour analyser vos besoins et co-construire les solutions le mieux adaptées à votre contexte.",
             "link": "",
             "images": [
-                {
-                    "url": "//julietacontreras.pro/images/map-pins.png"
-                }
-            ]
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/agreen_sia.jpg" },
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/agreen_sival.jpeg" }
+              ]
+            
         },
         {
             "name": "Dynamique Agile",
             "description": "Des séances de travail itératives pour ajuster les solutions tout au long de notre collaboration.",
-            "link": ""
+            "link": "",
+            "images": [
+                {
+                    "url": "//julietacontreras.pro/images/bloc2/dynam_agile.png"
+                }
+            ]
+            
         },
         {
             "name": "Solutions AgTech",
             "description": "Conseil, formation et accompagnement pour incorporer dans votre structure des outils et des services AgTech.",
-            "link": ""
+            "link": "",
+            "images": [
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/demo_drone.JPG" },
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/conference_drone.JPG" }                
+              ]
         },
         {
             "name": "Mise en réseau",
             "description": "Prise de contact ciblée et mise à disposition d’un carnet d’adresses international.",
-            "link": ""
+            "link": "",
+            "images": [
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/b2b.png" },
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/posters.JPG" }
+              ]
         }
     ],
     "projects2": [
