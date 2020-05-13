@@ -162,47 +162,59 @@
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/1.fruition.png"
+            "gifUrl": "//julietacontreras.pro/logos/fruition.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/2.chambreagri.png"
+            "gifUrl": "//julietacontreras.pro/logos/chambreagri.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/3.vegepolys.png"
+            "gifUrl": "//julietacontreras.pro/logos/LFD.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/4.esa.png"
+            "gifUrl": "//julietacontreras.pro/logos/destangers.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/5.clust-er.png"
+            "gifUrl": "//julietacontreras.pro/logos/esa.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/6.CTA.png"
+            "gifUrl": "//julietacontreras.pro/logos/SIA.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/7.DCSA.png"
+            "gifUrl": "//julietacontreras.pro/logos/SIVAL.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/8.GPWH-01.png"
+            "gifUrl": "//julietacontreras.pro/logos/DCSA.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/9.agrotransilvania_HD.png"
+            "gifUrl": "//julietacontreras.pro/logos/parrot-airinov.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/10.parrot-airinov.png"
+            "gifUrl": "//julietacontreras.pro/logos/clust-er.png"
+        }, {
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/vegepolys.png"
+        },      
+        {
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/GPWH.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/11.symbiotis.png"
+            "gifUrl": "//julietacontreras.pro/logos/agrotransilvania.png"
+        },
+        
+        {
+            "name": "",
+            "gifUrl": "//julietacontreras.pro/logos/symbiotis.png"
         }
     ],
     "projects": [
