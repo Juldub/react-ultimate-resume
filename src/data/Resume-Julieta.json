@@ -5,17 +5,17 @@
         "label": "AgTech Expert",
         "picture": "",
         "summary": "AgroTIC consulting",
-        "email": "Construisons ensemble l'agriculture numérique avec de l'intelligence",
+        "email": "Construisons ensemble l'agriculture numérique",
         "location": {}
     },
     "work": [
         {
             "name": "",
             "position": "C’est quoi l’AgTech ?",
-            "website": "www.sival.fr",
+            "website": "",
             "startDate": "",
             "endDate": "",
-            "summary": "AGTECH = AGriculture + TECHnologies\n\nQuand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval dans les chaînes de valeur du secteur agricole. On parle bien de l’Agriculture, la Viticulture et l’Elevage.\n\nL’AgTech est basée sur la collecte, le stockage, le traitement et l’échange de données. Ces données sont des informations acquises manuellement par une personne ou automatiquement par l’intermédiaire d’outils informatiques sur le terrain.\n\nDes bases de données provenant de multiples origines sont alors générées. Lorsque l’on croise un grand volume de données informatiques, qui dépasse le volume de données qu’un cerveau humain est capable de traiter, on parle de big data.\n\nNombreuses sont les technologies et les méthodes qui existent pour créer et traiter le big data. En voici quelques exemples utilisés dans le secteur agricole :\n\n ‣ Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, objets connectés, télédétection. \n\n ‣ Localisation géographique des informations : géolocalisation par satellite. \n\n ‣ Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales. \n\n ‣ Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique.\n\n ‣ Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation agronomique.\n\n ‣ Échanges de données informatisées : internet, ordinateur, tablette, smartphone.\n\n Venez prendre part à l’AgTech Community pour donner plus de sens à l’AgTech !\n\n",
+            "summary": "AGTECH = AGriculture + TECHnologies\n\nQuand on dit AgTech on fait allusion aux technologies utilisées de l’amont vers l’aval dans les chaînes de valeur du secteur agricole. On parle bien de l’Agriculture, la Viticulture et l’Elevage.\n\nL’AgTech est basée sur la collecte, le stockage, le traitement et l’échange de données. Ces données sont des informations acquises manuellement par des humains ou automatiquement par l’intermédiaire d’outils informatiques sur le terrain.\n\nDes bases de données provenant de multiples origines sont alors générées. Lorsque l’on croise des bases de données dépassant le volume d’information que l’intelligence biologique est capable de traiter, on parle de big data.\n\nNombreuses sont les technologies et les méthodes qui existent pour créer et traiter le big data. En voici quelques exemples utilisés dans le secteur agricole :\n\n ‣ Instruments de mesure pour la collecte des données sur le terrain : capteurs fixes, piétons ou embarqués, robots, objets connectés, télédétection. \n\n ‣ Localisation géographique des informations : géolocalisation par satellite. \n\n ‣ Cartographie et imagerie : cartes vectorielles et raster, multi et hyperspectrales. \n\n ‣ Visualisation et analyse de données : plateformes online dédiées, systèmes d’information géographique.\n\n ‣ Valorisation des informations : algorithmes de traitement des données et modélisation pour l’interprétation agronomique –deep learning, machine learning, intelligence artificielle-.\n\n ‣ Échanges de données informatisées : serveurs, cloud, internet, ordinateur, tablette, smartphone.\n\n Venez prendre part à l’AgTech Community pour donner plus de sens à l’AgTech !",
             "location": ""
         }
     ],
@@ -35,23 +35,23 @@
             "website": "https://www.eventbrite.fr/e/billets-dessine-moi-lagtech-103503100560",
             "startDate": "2020-06-02",
             "endDate": "",
-            "summary": "Rejoignez notre communauté AgTech !",
+            "summary": "Ce live se déroulera dans le cadre du LFDay.\n\nRejoignez notre communauté AgTech !",
             "location": "Webinar"
         },
         {
-            "name": "En partenariat avec l'ESA d’Angers",
-            "position": "Formation AgTech",
+            "name": "Formation en partenariat avec l'ESA d’Angers",
+            "position": "L’AgTech, back to basics",
             "website": "",
-            "startDate": "2020-09-01",
+            "startDate": "2020-09-14",
             "endDate": "",
-            "summary": "Perfectionnez vos connaissances en agriculture numérique.\n\n Formation continue de 3 jours :\n ‣ Contexte et usages du numérique en France\n ‣ Exemples de technologies utilisées en Agriculture, Viticulture et Elevage\n ‣ Focus sur les objets connectés\n ‣ Focus sur les acteurs AgTech\n\n Le formulaire d'inscription sera bientôt disponible. Pour obtenir plus d’informations, merci de me contacter par email (lien en bas de page)",
-            "location": "Angers, France"
+            "summary": "D’autres dates d’interventions sont envisageables à la demande.\n\nPerfectionnez vos connaissances en agriculture numérique.\n\nFormation de 3 jours. Programme succinct :\n ‣ Panorama de l’AgTech en France\n ‣ Exemples de technologies utilisées en Agriculture, Viticulture et Elevage\n ‣ Focus sur les acteurs AgTech\n ‣ Focus sur les objets connectés\n ‣ Visite d'une ferme connectée\n ‣ Mini-hackathon \n\n Le formulaire d'inscription sera bientôt disponible en ligne. Pour obtenir plus d’informations, merci de me contacter par email (lien en bas de page)",
+            "location": "France"
         },
         {
             "name": "SIA",
             "position": "Agreen Startup SIA",
             "website": "http://www.agreen-startup.com/choisir-un-concours/",
-            "startDate": "",
+            "startDate": "2021-01-02",
             "endDate": "",
             "summary": "Faites pousser votre startup à vitesse accélérée dans le cadre du salon international de l’agriculture.",
             "location": "Paris, France"
@@ -166,15 +166,15 @@
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/2.vegepolys.png"
+            "gifUrl": "//julietacontreras.pro/logos/2.chambreagri.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/3.esa.png"
+            "gifUrl": "//julietacontreras.pro/logos/3.vegepolys.png"
         },
         {
             "name": "",
-            "gifUrl": "//julietacontreras.pro/logos/4.chambreagri.png"
+            "gifUrl": "//julietacontreras.pro/logos/4.esa.png"
         },
         {
             "name": "",
@@ -244,6 +244,15 @@
                 { "name": "", "url": "//julietacontreras.pro/images/bloc2/b2b.png" },
                 { "name": "", "url": "//julietacontreras.pro/images/bloc2/posters.JPG" }
               ]
+        },
+        {
+            "name": "Allocutions publiques",
+            "description": "Démonstrations sur le terrain, animations de conférences et de séminaires en Français, Espagnol, Anglais en tant que représentante de votre entreprise.",
+            "link": "",
+            "images": [
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/demos.png" },
+                { "name": "", "url": "//julietacontreras.pro/images/bloc2/panelc2c.png" }
+              ]
         }
     ],
     "projects2": [
@@ -260,7 +269,7 @@
     "specific": {
         "basics": {
             "visaSponsorship": false,
-            "personalDescription": "Appuyée sur les nouvelles technologies de l'information et de la communication et mettant l’accent sur les chaînes de valeur agricole, ma passion est de vous accompagner dans la transition agricole numérique.\n\nJe vous propose des offres de services innovantes et sur mesure, orientées vers l’AgTech et adaptées à votre stratégie de croissance, de modernisation et d’optimisation de votre activité."
+            "personalDescription": "Appuyée sur les technologies de l'information et de la communication, je mets l’accent sur les chaînes de valeurs agricoles. Ma passion est de vous accompagner dans la transition agricole numérique.\n\nJe vous propose des services innovants, sur mesure, orientés vers l’AgTech et adaptés à votre stratégie de croissance, de modernisation et d’optimisation de votre activité."
         },
         "dreamJob": {
             "locations": [
