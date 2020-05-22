@@ -1,22 +1,22 @@
 import React, { Fragment, memo, useMemo } from 'react';
 
-import { useIntl } from 'react-intl';
-import { createUseStyles } from 'react-jss';
+import { useIntl, FormattedMessage } from 'react-intl';
+import { createUseStyles, useTheme } from 'react-jss';
 
-// import { Typography } from '@welovedevs/ui';
+import { Typography } from '@welovedevs/ui';
 
 import { ProfileCardSection } from '../../../../commons/profile_card/profile_card_section/profile_card_section';
-// import { ProfileCardSectionTitle } from '../../../../commons/profile_card/profile_card_section_title/profile_card_section_title';
+import { ProfileCardSectionTitle } from '../../../../commons/profile_card/profile_card_section_title/profile_card_section_title';
 import { ProfileCardSectionText } from '../../../../commons/profile_card/profile_card_section_text/profile_card_section_text';
 import { ProfileCardAnimatedBack } from '../../../../commons/profile_card/profile_card_animated_back/profile_card_animated_back';
 import { ProfileCardSectionSubtitle } from '../../../../commons/profile_card/profile_card_section_subtitle/profile_card_section_subtitle';
-// import { AnimatedUnderlinedButton } from '../../../../commons/animated_underlined_button/animated_underlined_button';
+import { AnimatedUnderlinedButton } from '../../../../commons/animated_underlined_button/animated_underlined_button';
 
-// import { useCardVariant } from '../../../../hooks/profile_card_hooks/use_card_variant';
+import { useCardVariant } from '../../../../hooks/profile_card_hooks/use_card_variant';
 
-// import { ReactComponent as LinkIcon } from '../../../../../assets/icons/link.svg';
+import { ReactComponent as LinkIcon } from '../../../../../assets/icons/link.svg';
 
-// import { getColorsFromCardVariant } from '../../../../../utils/styles/styles_utils';
+import { getColorsFromCardVariant } from '../../../../../utils/styles/styles_utils';
 
 import { styles } from './experiences_back_styles';
 import { translations } from './experiences_translations';
@@ -31,8 +31,8 @@ const ExperienceContent = ({ experience, variant, classes }) => {
     const { formatMessage } = useIntl();
     const [buildTitle] = useAdditionalNodes('cards.experiences.back.experience.content.buildTitle', null);
     const [customization] = useCustomization();
-    // const { id, name, summary, place, website } = experience;
-    const { id, name, summary, place } = experience;
+    const { id, name, summary, place, position, website } = experience;
+    // const { id, name, summary, place } = experience;
     const dateString = useMemo(() => {
         const displayFormat = customization?.fields?.work?.customDateFormat || 'MMM YYYY';
         if (!experience.endDate) {
@@ -46,9 +46,9 @@ const ExperienceContent = ({ experience, variant, classes }) => {
         return `${startDate} - ${endDate}`;
     }, [experience, customization?.fields?.work?.customDateFormat]);
 
-    // const [cardVariant] = useCardVariant();
-    // const theme = useTheme();
-    // const color = getColorsFromCardVariant(theme, cardVariant).backColor;
+    const [cardVariant] = useCardVariant();
+    const theme = useTheme();
+    const color = getColorsFromCardVariant(theme, cardVariant).backColor;
 
     const title = useMemo(() => {
         if (typeof buildTitle === 'function') {
@@ -72,10 +72,23 @@ const ExperienceContent = ({ experience, variant, classes }) => {
     }, [buildTitle, experience]);
     return (
         <ProfileCardSection key={id} cardVariant={variant}>
+            <ProfileCardSectionTitle>{position}</ProfileCardSectionTitle>
             <ProfileCardSectionSubtitle customClasses={{ container: classes.subtitle }}>
                 {title}
             </ProfileCardSectionSubtitle>
             <ProfileCardSectionText>{summary}</ProfileCardSectionText>
+            {website && (
+                <div className={classes.detail}>
+                    <AnimatedUnderlinedButton color={color}>
+                        <a className={classes.link} href={website} rel="noopener noreferrer" target="_blank">
+                            <LinkIcon className={classes.detailIcon} />
+                            <Typography customClasses={{ container: classes.detailTypography }} color="primary">
+                                <FormattedMessage id="Project.section.link" defaultMessage="Link" />
+                            </Typography>
+                        </a>
+                    </AnimatedUnderlinedButton>
+                </div>
+            )}
         </ProfileCardSection>
     );
 };
